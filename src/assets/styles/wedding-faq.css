@@ -1,12 +1,10 @@
   
   .faq-section{
     background: rgb(244, 244, 244) !important;
-    
+    padding: 4rem 0;
   }
 
-  .faq-container{
-    height:130vh;
-  }
+ 
   
   .rustic-title {
     font-size: 1.8rem;
