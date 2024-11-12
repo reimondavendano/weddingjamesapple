@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/weddingjamesapple/static/css/main.f9ef34d7.css",
-    "main.js": "/weddingjamesapple/static/js/main.ec5d2a3a.js",
+    "main.css": "/weddingjamesapple/static/css/main.459ad118.css",
+    "main.js": "/weddingjamesapple/static/js/main.2c1612bd.js",
     "static/js/453.58aa0b52.chunk.js": "/weddingjamesapple/static/js/453.58aa0b52.chunk.js",
     "static/media/home-bg.jpg": "/weddingjamesapple/static/media/home-bg.7b31128b6acf0cc16aa4.jpg",
     "static/media/6.jpeg": "/weddingjamesapple/static/media/6.9e58dc04ef3f2ecb8dfe.jpeg",
@@ -47,12 +47,12 @@
     "static/media/slick.ttf": "/weddingjamesapple/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/weddingjamesapple/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/weddingjamesapple/index.html",
-    "main.f9ef34d7.css.map": "/weddingjamesapple/static/css/main.f9ef34d7.css.map",
-    "main.ec5d2a3a.js.map": "/weddingjamesapple/static/js/main.ec5d2a3a.js.map",
+    "main.459ad118.css.map": "/weddingjamesapple/static/css/main.459ad118.css.map",
+    "main.2c1612bd.js.map": "/weddingjamesapple/static/js/main.2c1612bd.js.map",
     "453.58aa0b52.chunk.js.map": "/weddingjamesapple/static/js/453.58aa0b52.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9ef34d7.css",
-    "static/js/main.ec5d2a3a.js"
+    "static/css/main.459ad118.css",
+    "static/js/main.2c1612bd.js"
   ]
 }
