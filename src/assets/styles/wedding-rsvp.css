@@ -5,6 +5,8 @@
     opacity: 0;
     transition: opacity 1s ease-in;
   }
+
+  
   
   .rsvp-section.visible {
     opacity: 1;
@@ -29,6 +31,4 @@
     align-items: center
   }
 
-  .rsvp-container{
-    height: 100vh;
-  }
+ 
