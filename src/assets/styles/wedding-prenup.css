@@ -93,7 +93,7 @@
   }
 
     /* Responsive layout for mobile devices */
-    @media (max-width: 620px) {
+    @media (max-width: 640px) {
       .prenup-section{
         padding: 0px !important;
       }

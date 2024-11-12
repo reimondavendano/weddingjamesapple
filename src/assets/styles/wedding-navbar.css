@@ -35,22 +35,26 @@
     margin-left: 59px;
   }
   
-  /* Responsive adjustments */
-  @media (max-width: 620px) {
-    .navbar-nav {
-      text-align: center;
+   
+   /* Laptop Reso 150% */
+  @media (max-width: 1280px) {
+    .navbar-nav .nav-link {
+      margin-top: -30px;
+      font-size: 15px;
+      margin-right: 8px;
+      
     }
   }
 
    /* Responsive adjustments */
-   @media (max-width: 480px) {
+   @media (max-width: 640px) {
 
     .navbar {
         font-size: 12px;
     }
 
     .navbar-nav {
-      text-align: center;
+      text-align: left;
     }
 
     .logo-template{

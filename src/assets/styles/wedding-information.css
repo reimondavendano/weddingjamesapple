@@ -70,7 +70,32 @@
     top: 41px !important
   }
 
-  @media (max-width: 620px) {
+
+  @media (max-width: 1280px) {
+    .margin-left-90 {
+        margin-left: 60px;
+    }
+
+    .snap-icons {
+      margin-top: -38px;
+      margin-left: 103px;
+    }
+
+    .img-3-template {
+      left: -221px !important;
+      top: 29px !important;
+    }
+
+    .img-4-template {
+      width: 30% !important;
+      left: -149px !important;
+      top: 115px !important;
+    }
+
+
+  }
+
+  @media (max-width: 640px) {
     .margin-left-90 {
         margin-left: -69px  !important;
     }

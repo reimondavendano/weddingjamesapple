@@ -209,7 +209,53 @@ a.wedding-button, a.wedding-button:hover, a.wedding-button:active{
   }
 }
 
-@media (max-width: 620px) {
+/* Laptop Reso 150% */
+@media (max-width: 1280px) {
+  .logo-template {
+    font-size: 40px;
+    margin-left: 42px;
+  }
+
+  .font-size-16 {
+    font-size: 12px;
+  }
+
+  .global-standard-height {
+    height: 140vh !important;
+  }
+
+  .margin-bottom-140 {
+    margin-bottom: 60px;
+  }
+
+  .margin-top-55 {
+    margin-top: 25px !important;
+  }
+
+  .font-size-40{
+    font-size: 22px !important;
+  }
+
+  .font-size-18 {
+    font-size: 13px !important;
+  }
+
+  .font-size-25 {
+    font-size: 13px !important;
+  }
+
+  .font-size-15{
+    font-size: 10px !important
+  }
+
+  .font-size-30 {
+    font-size: 20px !important;
+  }
+}
+
+
+/* Mobile */
+@media (max-width: 640px) {
   .global-title-template{
     font-size: 50px;
     margin-top: 0px;
@@ -252,8 +298,6 @@ a.wedding-button, a.wedding-button:hover, a.wedding-button:active{
   .font-size-15{
     font-size: 12px !important
   }
-
-
 
 }
 

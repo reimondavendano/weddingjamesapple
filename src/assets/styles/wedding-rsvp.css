@@ -24,7 +24,8 @@
     background: url('../images/wedding-assets/rustic-footer.png');
     background-position: center;
     background-repeat: repeat-x;
-    height: 300px;
+    background-size: 40% auto !important;
+    height: 150px !important;
     display: flex;
     align-items: center
   }
@@ -33,7 +34,16 @@
     height: 100vh;
   }
 
-  @media (max-width: 620px) {
+  /* laptop / desktop  150% reso*/
+  @media (max-width: 1280px) {
+    .img-footer {
+      background-size: 40% auto !important;
+      height: 100px !important;
+    }
+  }
+
+  /* from mobile */
+  @media (max-width: 640px) {
     .img-footer{
       background-size: 120% auto !important;
       height: 100px !important;

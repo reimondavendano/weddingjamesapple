@@ -109,7 +109,7 @@
   }
   
   /* Responsive layout for mobile devices */
-  @media (max-width: 620px) {
+  @media (max-width: 640px) {
     .timeline-hard-coded{
       display: none !important;
     }

@@ -108,8 +108,36 @@
     margin-top:300px;
 }
 
+
+/* Responsive layout for laptops and 150% */
+@media (max-width: 1280px) {
+    .rc-card-title{
+        font-size:18px !important;
+    }
+    
+    .rc-card-subtitle{
+        font-size:16px !important;
+    }
+
+    .card-description > p{
+        font-size: 10px !important;
+        font-family: 'Agradir', sans-serif;
+    }
+
+    .story-container h1 {
+        font-family: 'Agradir', sans-serif !important;
+        font-size: 18px !important;
+    }
+
+    .timeline-item-title {
+        font-size: 20px !important;
+    }
+    
+
+}
+
 /* Responsive layout for mobile devices */
-@media (max-width: 620px) {
+@media (max-width: 640px) {
     .rc-card-title{
         font-size:20px !important;
     }
@@ -127,5 +155,7 @@
         font-family: 'Agradir', sans-serif !important;
         font-size: 20px !important;
     }
+
+    
 
 }

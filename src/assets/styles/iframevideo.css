@@ -14,7 +14,7 @@
   }
   
   /* Adjust for screens 480px and smaller */
-  @media (max-width: 480px) {
+  @media (max-width: 640px) {
     .video-responsive {
       padding-bottom: 75%; /* Adjust aspect ratio for a smaller screen */
     }

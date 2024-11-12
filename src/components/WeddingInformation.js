@@ -77,7 +77,7 @@ const WeddingInformation = () => {
         </Row>
         <Row>
             <Col md={4}></Col>
-            <Col md={4} style={{zIndex: 4}}>
+            <Col md={5} style={{zIndex: 4}}>
                 <h1 className="margin-top-50 text-align-center font-weight-bold font-agradir primary-font-color font-size-40"> Attire </h1>
                     <Row>
                         <Col md={6}>
@@ -134,7 +134,7 @@ const WeddingInformation = () => {
                 <img src={img3} alt="Responsive Image" className="img-fluid position-absolute custom-image img-3-template" />
                 <img src={img4} alt="Responsive Image" className="img-fluid position-absolute custom-image img-4-template" />
             </Col>
-            <Col md={2}></Col>
+            <Col md={1}></Col>
         </Row>
       </Container>
     </section>

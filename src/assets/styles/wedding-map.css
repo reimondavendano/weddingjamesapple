@@ -42,7 +42,7 @@
     background-color: #b44a14; /* Darker shade on hover */
   }
 
-  @media (max-width: 620px) {
+  @media (max-width: 640px) {
     .map-img {
         position: absolute;
         left: 0;

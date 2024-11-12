@@ -22,14 +22,14 @@ const WeddingNavBar = () => {
     <Navbar expand="lg" fixed="top" className={scrolled ? 'navbar-scrolled' : ''}>
       <Container fluid>
         <Row className="w-100 align-items-center">
-          <Col sm={2} md={4} className="navbar-logo">
+          <Col sm={2} md={4} className="navbar-logo resolution-change">
             {/* Logo */}
             <Navbar.Brand href="#home">
               <div className="logo-template">J & A</div>
             </Navbar.Brand>
           </Col>
-          <Col sm={1} md={2}></Col>
-          <Col sm={7} md={6} className="text-right">
+          <Col sm={1} md={2} className='resolution-change'></Col>
+          <Col sm={9} md={6} className="text-right resolution-change">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ml-auto">
