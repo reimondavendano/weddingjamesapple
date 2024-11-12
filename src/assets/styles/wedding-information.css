@@ -72,12 +72,12 @@
 
   @media (max-width: 620px) {
     .margin-left-90 {
-        margin-left: -106px !important;
+        margin-left: -69px  !important;
     }
     
     .snap-icons{
-        margin-top: -40px !important;
-        margin-left: 174px !important;
+        margin-top: -35px !important;
+        margin-left: 160px !important
     }
 
     .img-3-template, .img-4-template {
@@ -86,6 +86,10 @@
 
     .color-palette{
         margin-left: 95px !important;
+    }
+
+    .mobile-center-text{
+      text-align: center !important;
     }
   }
   

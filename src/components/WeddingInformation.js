@@ -38,7 +38,7 @@ const WeddingInformation = () => {
         <Row className="justify-content-center margin-top-55 ">
             <Col md={2}></Col>
             <Col md={4} className="text-center justify-content-center">
-                <h1 className="text-align-left margin-top-50 font-weight-bold font-agradir primary-font-color margin-left-90 font-size-40" > Snap & Share </h1>
+                <h1 className="text-align-left mobile-center-text margin-top-50 font-weight-bold font-agradir primary-font-color margin-left-90 font-size-40" > Snap & Share </h1>
                     <div className="snap-icons" >
                         <div className="content-icon">
                             <div className="icon-class1">
@@ -57,9 +57,9 @@ const WeddingInformation = () => {
                         </div>
                     </div>
                     <div className="">
-                        <p className="text-align-left snap-details font-agradir font-style-italic font-size-18 primary-font-color" style={{fontSize: '16px', marginTop: '25px'}}> Help us captured and share our precious moments using our official wedding hashtag</p>
-                        <p className="text-align-left margin-top-30 font-agradir font-size-bold font-size-18 secondary-font-color"> #abeautAPPLElovestorywithJAMES</p>
-                        <p className="text-align-left font-agradir margin-top-neg-20 font-size-bold font-size-18 secondary-font-color"> #JAMESfoundhAPPLEyeverafter</p>
+                        <p className="text-align-left mobile-center-text snap-details font-agradir font-style-italic font-size-18 primary-font-color" style={{fontSize: '16px', marginTop: '25px'}}> Help us captured and share our precious moments using our official wedding hashtag</p>
+                        <p className="text-align-left mobile-center-text margin-top-30 font-agradir font-size-bold font-size-18 secondary-font-color"> #abeautAPPLElovestorywithJAMES</p>
+                        <p className="text-align-left mobile-center-text font-agradir margin-top-neg-20 font-size-bold font-size-18 secondary-font-color"> #JAMESfoundhAPPLEyeverafter</p>
                     </div>
             </Col>
             <Col md={6}></Col>
@@ -84,8 +84,8 @@ const WeddingInformation = () => {
                         <Row>
                             <Col md ={12}>
                                 <div className = "margin-top-30">
-                                    <p className="text-align-left font-agradir font-style-bold font-size-25 secondary-font-color"> Polo or Long Sleeve </p>
-                                    <p className="text-align-left margin-top-neg-22 font-agradir font-style-italic font-size-18 secondary-font-color"> for the gentlemen</p>
+                                    <p className="text-align-left mobile-center-text font-agradir font-style-bold font-size-25 secondary-font-color"> Polo or Long Sleeve </p>
+                                    <p className="text-align-left mobile-center-text margin-top-neg-22 font-agradir font-style-italic font-size-18 secondary-font-color"> for the gentlemen</p>
                                 </div>
                             </Col>
                         </Row>
@@ -93,8 +93,8 @@ const WeddingInformation = () => {
                         <Row>
                             <Col md ={12}>
                                 <div className = "margin-top-30">
-                                    <p className="text-align-left font-agradir font-style-italic font-style-bold font-size-25 secondary-font-color"> Cocktail or Long Dress </p>
-                                    <p className="text-align-left margin-top-neg-22 font-agradir font-style-italic font-size-18 secondary-font-color"> for the ladies</p>
+                                    <p className="text-align-left mobile-center-text font-agradir font-style-italic font-style-bold font-size-25 secondary-font-color"> Cocktail or Long Dress </p>
+                                    <p className="text-align-left mobile-center-text margin-top-neg-22 font-agradir font-style-italic font-size-18 secondary-font-color"> for the ladies</p>
                                 </div>
                             </Col>
                         </Row>
@@ -102,7 +102,7 @@ const WeddingInformation = () => {
                         <Row>
                             <Col md ={12}>
                                 <div className = "margin-top-50">
-                                    <p className="text-align-left  font-agradir font-style-italic font-size-18 secondary-font-color"> Dress fabulously in shade of rust champagne or earth tone color.</p>
+                                    <p className="text-align-left  mobile-center-text font-agradir font-style-italic font-size-18 secondary-font-color"> Dress fabulously in shade of rust champagne or earth tone color.</p>
                                 </div>
                             </Col>
                         </Row>
@@ -121,7 +121,7 @@ const WeddingInformation = () => {
                         <Row>
                             <Col md ={12}>
                                 <div className = "margin-top-50">
-                                    <p className="text-align-left  font-agradir font-style-italic font-size-18 secondary-font-color"> Please do not wear polo shirt, jeans or short. Strictly follow the dress code</p>
+                                    <p className="text-align-left  mobile-center-text font-agradir font-style-italic font-size-18 secondary-font-color"> Please do not wear polo shirt, jeans or short. Strictly follow the dress code</p>
                                 </div>
                             </Col>
                         </Row>
