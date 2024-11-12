@@ -1,0 +1,50 @@
+/* Header CSS */
+
+.header-section {
+    background-image: url('../images/home-bg.jpg'); /* Specify the path to your image */
+    background-size: cover; /* Cover the entire header area */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-title {
+    font-size: 60px;
+    font-family: "Cormorant-Bold";
+    color: #C85103;
+    letter-spacing: 28px;
+  }
+  
+  .header-subtitle {
+    font-size: 24px;
+    font-family: "Agradir";
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    letter-spacing: 16px;
+  }
+
+  .head-template{
+    margin-top: 690px !important
+  }
+
+  
+  @media (max-width: 480px) {
+    .header-title {
+      font-size: 3rem; /* Smaller font size on mobile */
+    }
+  
+    .header-subtitle {
+      font-size: 1rem;
+    }
+
+    .head-template{
+      margin-top: 455px !important;
+    }
+
+    .navbar-scrolled {
+      background-color: transparent !important;
+    }
+  }

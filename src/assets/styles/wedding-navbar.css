@@ -1,0 +1,77 @@
+/* Basic styling for the Navbar */
+.navbar {
+    padding: 1rem;
+    transition: background-color 0.3s ease-in-out;
+    font-family: "Cormorant";
+    
+  }
+  
+  /* Background color when scrolled */
+  .navbar-scrolled {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .navbar-logo img {
+    max-height: 40px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: white;
+    margin-right: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);  /* Black shadow for outline effect */
+    font-weight: bold;
+    margin-top: -57px;
+    font-size: 22px;
+  }
+  
+  .nav-link:hover, .nav-link.active {
+    color: #CC5315 !important; /* Lighter brown on hover */
+  }
+
+  .logo-template{
+    font-family: "Ovo", sans-serif;
+    color: #C85103;
+    font-size: 70px;
+    margin-left: 59px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      text-align: center;
+    }
+  }
+
+   /* Responsive adjustments */
+   @media (max-width: 480px) {
+
+    .navbar {
+        font-size: 12px;
+    }
+
+    .navbar-nav {
+      text-align: center;
+    }
+
+    .logo-template{
+        margin-left: 0px !important;
+        font-size: 35px !important;
+    }
+
+    .navbar-nav .nav-link{
+        margin-top: 0px !important
+    }
+
+    .fixed-top {
+      position: absolute !important;  
+      top: 0;
+      right: 0;
+      left: 0;
+    }
+    
+    .navbar-toggler-icon{
+        color: #C85103;
+    }
+
+  }
+  

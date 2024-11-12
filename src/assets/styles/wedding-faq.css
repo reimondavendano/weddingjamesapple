@@ -1,0 +1,67 @@
+  
+  .faq-section{
+    background: rgb(244, 244, 244) !important;
+    
+  }
+
+  .faq-container{
+    height:130vh;
+  }
+  
+  .rustic-title {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #CC5315; /* Accent color for title */
+    font-weight: bold;
+  }
+  
+  .faq-accordion {
+    margin-bottom: 80px !important;
+  }
+  
+  /* Accordion Styles for Rustic Theme */
+  .faq-accordion .accordion-button {
+    color: #6D3724;
+    font-weight: bold;
+    border: none;
+    box-shadow: none;
+    font-family: 'Agradir', serif;
+    font-size: 15px;
+    background-color: #fff;
+    letter-spacing: 4px
+  }
+  
+  .faq-accordion > p {
+    color: #6D3724 !important;
+    letter-spacing: 2px
+  }
+  
+  .faq-accordion .accordion-button:not(.collapsed) {
+    background-color: rgba(204, 83, 21, 0.1); /* Light rustic tint for expanded state */
+    color: #CC5315;
+  }
+  
+  .faq-accordion .accordion-body {
+    background-color: rgba(255, 255, 255, 0.8); /* Light, transparent background for rustic theme */
+    color: #6D3724 !important;
+    font-size: 1rem;
+    padding: 20px;
+    border: 1px solid #CC5315; /* Outline for body content */
+    border-radius: 6px;
+    text-align: justify !important;
+  }
+  
+  /* Optional Button Styling for Consistent Theme */
+  .rustic-button {
+    background-color: #CC5315;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+  
+  .rustic-button:hover {
+    background-color: #A84412; /* Slightly darker on hover */
+  }

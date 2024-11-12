@@ -1,0 +1,151 @@
+  .introduction-section {
+    background-color: white;
+    padding: 4rem 0;
+    opacity: 0;                       /* Start invisible */
+    transition: opacity 1s ease-in;    /* Smooth fade-in effect */
+  }
+  
+  .introduction-section.visible {
+    opacity: 1;                        /* Fully visible when in view */
+  }
+  
+  .mdy-banner{
+    color:#6D3724 !important;
+  }
+  
+  .head-banner-month {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 8px;
+    margin-top: -40px;
+    font-family: 'Agradir-Bold', sans-serif !important;
+  }
+  
+  .head-banner-date {
+    font-weight: bold;
+    font-size: 70px;
+    margin-left: 7px;
+    margin-top: -34px;;
+    font-family: 'Agradir-Bold', sans-serif !important;
+  }
+  
+  .head-banner-year {
+    margin-top: -38px;
+    font-weight: bold;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 8px;
+    font-family: 'Agradir-Bold', sans-serif !important;
+  }
+  
+  .janda-font{
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 8px;
+  }
+  
+  .chapel-img-pos{
+    margin-top: -83px;
+  }
+  
+  .reception-img-pos{
+    width: 50%;
+  }
+  
+  .chapel-container{
+    margin-top: -40px;
+  }
+
+  .chapel-subtext {
+    text-align: center;
+    font-family: "Agradir", sans-serif; 
+    color:#6D3724;
+    margin-top: -22px;
+    margin-left: -132px;
+  }
+
+  .chapel-headtext{
+    text-align: center;
+    font-family: "Agradir-Bold", sans-serif; 
+    color:#6D3724;
+    margin-left: -23px;
+  }
+
+  .border-top-bottom {
+    border-top: 2px solid #000;    /* Top border with specific color and width */
+    border-bottom: 2px solid #000; /* Bottom border with specific color and width */
+  }
+
+  .reception-container{
+    margin-top: -60px;
+  }
+
+  /* Vertical line CSS */
+  .vertical-line-container {
+    position: relative;
+    padding-left: 20px; /* Spacing between line and content */
+  }
+  
+  .vertical-line-container::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: -70px;
+    bottom: 0;
+    height: 225px;
+    width: 1px;
+    background-color: #6D3724;
+    transform: translateX(-50%);
+    z-index: 999999;
+  }
+
+   /* Responsive adjustments */
+   @media (max-width: 480px) {
+
+    .margin-left-110{
+        margin-left: 0px !important;
+    }
+
+    .head-banner-date {
+        font-size:44px !important
+    }
+
+    .head-banner-month {
+        font-size: 15px ;
+        margin-top: 0px;
+    }
+
+    .margin-top-204{
+        margin-top: 80px !important;
+    }
+
+    .vertical-line-container::before{
+        display: none !important;
+    }
+
+    .chapel-container{
+        margin-top: 0px !important;
+    }
+
+    .font-size-16 {
+        font-size: 13px !important
+    }
+
+    .chapel-img-container{
+        margin-top: 50px
+    }
+
+    .reception-container {
+        margin-top: -15px;
+        width: 50%;
+        margin-left: 91px;
+    }
+
+    .text-align-left {
+        text-align: center !important;
+    }
+    
+  }
+  

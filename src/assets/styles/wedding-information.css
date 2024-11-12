@@ -1,0 +1,91 @@
+ .information-section {
+    background: #fff !important;
+    padding: 4rem 0;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+  }
+  
+  .information-section.visible {
+    opacity: 1;
+  }
+  
+  .snap-icons {
+    display: flex;
+    justify-content: center;
+    gap: 6px; /* Space between icons */
+    align-items: center;
+    margin-top: -44px;
+    margin-left: 183px
+  }
+  
+  .content-icon .icon-class1 {
+    color: #D1BCA3; /* Default icon color */
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .content-icon2 .icon-class2 {
+    color: #fff; /* Default icon color */
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .content-icon .icon-class1:hover {
+    color: #CC5315; /* Change color on hover */
+  }
+
+  .margin-left-90{
+    margin-left: 90px;
+  }
+
+  .color-palette {
+    display: flex;
+    gap: 5px; /* Space between circles */
+    flex-wrap: wrap;
+  }
+  
+  .color-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Makes it a circle */
+    border: 2px solid #ddd; /* Optional border */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
+    cursor: pointer; /* Changes cursor on hover */
+    transition: transform 0.3s ease; /* Smooth scale effect */
+  }
+  
+  .color-circle:hover {
+    transform: scale(1.1); /* Slightly enlarges circle on hover */
+  }
+
+  .img-4-template{
+    width: 30% !important;
+    left: -231px !important;
+    top: 115px !important;
+  }
+
+  .img-3-template{
+    width: 36% !important;
+    left: -346px !important;
+    top: 41px !important
+  }
+
+  @media (max-width: 480px) {
+    .margin-left-90 {
+        margin-left: -106px !important;
+    }
+    
+    .snap-icons{
+        margin-top: -40px !important;
+        margin-left: 174px !important;
+    }
+
+    .img-3-template, .img-4-template {
+        display: none !important;
+    }
+
+    .color-palette{
+        margin-left: 95px !important;
+    }
+  }
+  

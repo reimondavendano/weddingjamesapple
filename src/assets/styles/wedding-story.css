@@ -1,0 +1,109 @@
+/* Timeline-Chrono */
+.story-section {
+    background: #fff !important;
+    padding: 4rem 0;
+    opacity: 0;                       /* Start invisible */
+    transition: opacity 1s ease-in;    /* Smooth fade-in effect */
+}
+
+.story-section.visible {
+    opacity: 1;                        /* Fully visible when in view */
+}
+
+.hxLLRt {
+    display: none !important;
+  
+}
+
+.jAaHbQ{
+    display: none !important;
+}
+
+.dJPOyH{
+    color:#CC5315 !important;
+}
+
+.timeline-container {
+/* background-color: #f4f0ec; Soft paper-like background  */
+    padding: 20px;
+    font-family: 'Agradir', sans-serif;
+    color:#CC5315 !important;
+}
+
+.chrono-icons {
+    color: #A47C48; /* Darker rustic color for icons */
+}
+
+.chrono-timeline {
+    margin-top: 20px;
+}
+
+.chrono-control-buttons {
+    display: none !important;
+}
+
+.chrono-card {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    border: 1px solid #D1BCA3; /* Light brown border for framed look */
+}
+
+.chrono-title {
+    font-family: 'Agradir', serif;
+    font-size: 1.2em;
+    color: #4B3E2A; /* Dark brown text */
+}
+
+.chrono-media img {
+    border-radius: 10px; /* Rounded corners for images */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Add a rustic shadow to images */
+}
+
+.rc-title{
+    font-family: 'Agradir', sans-serif;
+    color:#CC5315 !important;
+}
+
+.rc-card-title{
+    color:#CC5315 !important;
+    font-size: 37px !important;
+    font-family: 'Agradir', sans-serif !important;
+
+}
+
+.rc-card{
+    background: #F5EAD6;
+}
+
+.timeline-item-title.active{
+    color: #CC5315 !important;
+    background: #F5EAD6 !important;
+}
+
+.timeline-item-title {
+    font-size: 40px !important;
+    color:#CC5315 !important;
+}
+
+.rc-card-subtitle {
+    font-size: 25px !important;
+    font-family: 'Agradir', sans-serif !important;
+}
+
+
+
+.card-description > p{
+    font-size: 13px !important;
+    font-family: 'Agradir', sans-serif;
+}
+
+.timeline-card-content{
+    max-width: 360px !important;
+}
+
+.margin-top-144 {
+    margin-top:144px;
+}
+
+.margin-top-300 {
+    margin-top:300px;
+}

@@ -1,0 +1,94 @@
+/* General styles for the section */
+  .prenup-section {
+    background: #fff;
+    padding: 4rem 0;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+  }
+  
+  .prenup-section.visible {
+    opacity: 1;
+  }
+  
+  .slider-container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+  }
+  
+  /* Slick arrow buttons */
+  .slick-prev, .slick-next {
+    font-size: 40px;
+    color: white;
+    opacity: 0.6;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    transition: opacity 0.3s ease;
+  }
+  
+  .slick-prev:hover, .slick-next:hover {
+    opacity: 1;
+  }
+  
+  .slick-prev {
+    left: 10px;
+  }
+  
+  .slick-next {
+    right: 10px;
+  }
+  
+  /* Make sure images are above other slider elements */
+  .slider-image-container {
+    position: relative;
+    z-index: 10; /* Ensure image container is above slider arrows */
+  }
+  
+  img.img-slider {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    z-index: 10; /* Ensure the images themselves are clickable */
+  }
+  
+  img.img-slider:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  /* Modal styles */
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Modal should be above everything else */
+    backdrop-filter: blur(5px); /* Apply blur effect to the background */
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+  
+  /* Modal content */
+  .modal-content {
+    position: relative;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: 10000; /* Ensure modal content is above everything */
+  }
+  
+  /* Image inside modal will take full width */
+  .modal-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  
