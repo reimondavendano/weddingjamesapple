@@ -39,11 +39,11 @@
     }
 
     .header-title {
-      font-size: 43px; /* Smaller font size on mobile */
+      font-size: 50px; /* Smaller font size on mobile */
     }
   
     .header-subtitle {
-      font-size: 14px;
+      font-size: 18px;
       text-shadow: 1px 1px 3px rgba(1, 1, 1, 1) !important;
     }
 
