@@ -79,7 +79,7 @@ const WeddingIntro = () => {
                         </div>
                     </Col>
                     <Col md={5}>
-                        <p className="text-align-left font-agradir secondary-font-color font-size-16"> Reception immediately follows at <span className="font-weight-bold primary-font-color font-agradir-bold"> LEANEL'S GARDEN,</span>Tagaytay City </p>
+                        <p className="text-align-left font-agradir secondary-font-color font-size-16 recept-desc"> Reception immediately follows at <span className="font-weight-bold primary-font-color font-agradir-bold"> LEANEL'S GARDEN,</span>Tagaytay City </p>
                     </Col>
                     <Col md={3}></Col>
                 </Row>
