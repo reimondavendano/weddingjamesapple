@@ -102,19 +102,29 @@
   }
 
    /* Responsive adjustments */
-   @media (max-width: 480px) {
+   @media (max-width: 620px) {
+
+    .introduction-section {
+      margin-top: -200px;
+    }
 
     .margin-left-110{
         margin-left: 0px !important;
     }
 
     .head-banner-date {
-        font-size:44px !important
+        font-size:44px !important;
+        margin-top: -30px;
     }
 
     .head-banner-month {
-        font-size: 15px ;
+        font-size: 14px ;
         margin-top: 0px;
+    }
+
+    .head-banner-year{
+       font-size: 14px;
+       margin-top: -36px;
     }
 
     .margin-top-204{
@@ -134,12 +144,20 @@
     }
 
     .chapel-img-container{
-        margin-top: 50px
+        margin-top: 50px;
+    }
+
+    .chapel-img-pos{
+      margin-top: -48px;
+      width: 50%;
+    }
+
+    .recept-img-pos{
+      width: 50%;
     }
 
     .reception-container {
         margin-top: -15px;
-        width: 50%;
         margin-left: 91px;
     }
 

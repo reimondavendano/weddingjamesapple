@@ -70,7 +70,7 @@
     top: 41px !important
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 620px) {
     .margin-left-90 {
         margin-left: -106px !important;
     }

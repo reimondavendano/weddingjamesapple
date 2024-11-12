@@ -42,7 +42,7 @@
     background-color: #b44a14; /* Darker shade on hover */
   }
 
-@media (max-width: 480px) {
+  @media (max-width: 620px) {
     .map-img {
         position: absolute;
         left: 0;
@@ -57,4 +57,14 @@
     .margin-bottom-140 {
        margin-bottom: -15px;
     }
+
+    .templatedMapcontainer{
+      padding: 14px;
+    }
+
+    a.wedding-button {
+      font-size: 10px;
+    }
+
+    
   }

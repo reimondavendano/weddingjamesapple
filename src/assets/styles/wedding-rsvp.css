@@ -32,3 +32,11 @@
   .rsvp-container{
     height: 100vh;
   }
+
+  @media (max-width: 620px) {
+    .img-footer{
+      background-size: 120% auto !important;
+      height: 100px !important;
+    }
+  }
+  

@@ -63,3 +63,16 @@
   .rustic-button:hover {
     background-color: #A84412; /* Slightly darker on hover */
   }
+
+   /* Responsive layout for mobile devices */
+   @media (max-width: 620px) {
+    .faq-accordion .accordion-button {
+      letter-spacing: 1px !important;
+      font-size: 13px !important;
+    }
+
+    .faq-section img {
+      width: 30% !important;
+    }
+
+   }

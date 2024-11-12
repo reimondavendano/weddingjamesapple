@@ -109,10 +109,16 @@
   }
   
   /* Responsive layout for mobile devices */
-  @media (max-width: 480px) {
+  @media (max-width: 620px) {
     .timeline-hard-coded{
       display: none !important;
     }
+
+    .sched-image{
+      width:70%;
+      margin-left: 56px;
+    }
+
   
     .timeline-img-place{
       display: block !important;

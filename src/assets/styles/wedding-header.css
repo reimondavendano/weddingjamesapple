@@ -31,17 +31,24 @@
   }
 
   
-  @media (max-width: 480px) {
+  @media (max-width: 620px) {
+    .header-section {
+      
+      background-size: 120% auto !important;
+      background-position: top !important;
+    }
+
     .header-title {
-      font-size: 3rem; /* Smaller font size on mobile */
+      font-size: 43px; /* Smaller font size on mobile */
     }
   
     .header-subtitle {
-      font-size: 1rem;
+      font-size: 14px;
+      text-shadow: 1px 1px 3px rgba(1, 1, 1, 1) !important;
     }
 
     .head-template{
-      margin-top: 455px !important;
+      margin-top: 0px !important;
     }
 
     .navbar-scrolled {

@@ -48,8 +48,8 @@ const WeddingTimeline = () => {
             <Col md={2}></Col>
             <Col md={8} >
                 <div className="timeline-img-place">
-                    <Row>
-                        <Col md={12}>
+                    <Row className="justify-content-center">
+                        <Col md={8}>
                         <div className ="position-relative map-container">
                             <img src={sched} alt="Responsive Image" className="img-fluid sched-image" />
                         </div>

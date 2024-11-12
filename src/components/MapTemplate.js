@@ -1,15 +1,16 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
+import '../assets/styles/wedding-map.css';
 
 function MapTemplate({ mapsUrl, imageSRC, title, subtext }) {
   return (
         <div style={styles.templatedMapcontainer} className='templatedMapcontainer'>
             <div style={styles.label}>
-                <h1 className="font-cormorant font-weight-bold primary-font-color">{title}</h1>
-                <p style={styles.subtext}>{subtext}</p>
+                <h1 className="font-cormorant font-size-30 font-weight-bold primary-font-color">{title}</h1>
+                <p className="font-size-16" style={styles.subtext}>{subtext}</p>
             </div>
             <div style={styles.mapsWrapper}>
-                <img src ={imageSRC} className="img-fluid"/>
+                <img src ={imageSRC} className="img-fluid map-wrapper"/>
             </div>
             <div className="text-center mt-2">
                 <Button

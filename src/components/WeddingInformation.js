@@ -38,7 +38,7 @@ const WeddingInformation = () => {
         <Row className="justify-content-center margin-top-55 ">
             <Col md={2}></Col>
             <Col md={4} className="text-center justify-content-center">
-                <h1 className="text-align-left margin-top-50 font-weight-bold font-agradir primary-font-color margin-left-90" > Snap & Share </h1>
+                <h1 className="text-align-left margin-top-50 font-weight-bold font-agradir primary-font-color margin-left-90 font-size-40" > Snap & Share </h1>
                     <div className="snap-icons" >
                         <div className="content-icon">
                             <div className="icon-class1">
@@ -57,7 +57,7 @@ const WeddingInformation = () => {
                         </div>
                     </div>
                     <div className="">
-                        <p className="text-align-left font-agradir font-style-italic font-size-18 primary-font-color" style={{fontSize: '16px', marginTop: '25px'}}> Help us captured and share our precious moments using our official wedding hashtag</p>
+                        <p className="text-align-left snap-details font-agradir font-style-italic font-size-18 primary-font-color" style={{fontSize: '16px', marginTop: '25px'}}> Help us captured and share our precious moments using our official wedding hashtag</p>
                         <p className="text-align-left margin-top-30 font-agradir font-size-bold font-size-18 secondary-font-color"> #abeautAPPLElovestorywithJAMES</p>
                         <p className="text-align-left font-agradir margin-top-neg-20 font-size-bold font-size-18 secondary-font-color"> #JAMESfoundhAPPLEyeverafter</p>
                     </div>
@@ -68,7 +68,7 @@ const WeddingInformation = () => {
 
             <Col md={6}></Col>
             <Col md={4}>
-                <h1 className="margin-top-50 text-align-center font-weight-bold font-agradir primary-font-color"> Gift Guide </h1>
+                <h1 className="margin-top-50 text-align-center font-weight-bold font-agradir primary-font-color font-size-40"> Gift Guide </h1>
                 <p className="text-align-center font-agradir font-style-italic font-size-18 secondary-font-color"> With all that we have, we've been truly blessed. Your presence and prayers are all requested</p>
                 <p className="text-align-center font-agradir font-style-italic font-size-18 secondary-font-color"> But if you desire to give nonetheless, monetary gift is one we humbly suggest</p>
             </Col>
@@ -78,7 +78,7 @@ const WeddingInformation = () => {
         <Row>
             <Col md={4}></Col>
             <Col md={4} style={{zIndex: 4}}>
-                <h1 className="margin-top-50 text-align-center font-weight-bold font-agradir primary-font-color"> Attire </h1>
+                <h1 className="margin-top-50 text-align-center font-weight-bold font-agradir primary-font-color font-size-40"> Attire </h1>
                     <Row>
                         <Col md={6}>
                         <Row>

@@ -36,7 +36,7 @@
   }
   
   /* Responsive adjustments */
-  @media (max-width: 768px) {
+  @media (max-width: 620px) {
     .navbar-nav {
       text-align: center;
     }
@@ -54,8 +54,7 @@
     }
 
     .logo-template{
-        margin-left: 0px !important;
-        font-size: 35px !important;
+       display: none;
     }
 
     .navbar-nav .nav-link{

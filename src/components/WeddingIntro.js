@@ -43,7 +43,7 @@ const WeddingIntro = () => {
                 <Row className="margin-left-110">
                     <Col md={2}>
                         <div className="text-align-center">
-                            <p className=" border-top-bottom text-align-center black-color"> SATURDAY </p>
+                            <p className=" border-top-bottom text-align-center black-color font-size-16"> SATURDAY </p>
                         </div>
                     </Col>
                     <Col md={2}>
@@ -55,7 +55,7 @@ const WeddingIntro = () => {
                     </Col>
                     <Col md={2}>
                         <div className="text-align-center">
-                            <p className="border-top-bottom text-align-center black-color"> AT 2PM </p>
+                            <p className="border-top-bottom text-align-center black-color font-size-16"> AT 2PM </p>
                         </div>
                     </Col>
 
@@ -75,7 +75,7 @@ const WeddingIntro = () => {
                 <Row>
                     <Col md={4}>
                         <div className ="position-relative reception-container">
-                            <img src={reception} alt="Responsive Image" className="img-fluid custom-image" />
+                            <img src={reception} alt="Responsive Image" className="img-fluid custom-image recept-img-pos"/>
                         </div>
                     </Col>
                     <Col md={5}>

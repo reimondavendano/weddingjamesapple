@@ -89,28 +89,28 @@ const WeddingFAQ = () => {
                         {/* Conditional list rendering for index 2 */}
                         {index === 2 ? (
                             <div>
-                                <div className="text-align-left font-agradir">
+                                <div className="text-align-left font-agradir font-size-15">
                                     {faq.answer}
                                 </div>
-                                <p className ="secondary-font-color margin-top-20">For Gentleman :</p>
-                                <p className ="secondary-font-color margin-top-neg-20">Polo or Long Sleeves following the color motif and slacks</p>
-                                <p className ="secondary-font-color ">For Ladies: </p>
-                                <p className ="secondary-font-color margin-top-neg-20">Blouse, Cocktail or Long Dress preferably on our color palette below</p>
+                                <p className ="secondary-font-color margin-top-20 font-size-15">For Gentleman :</p>
+                                <p className ="secondary-font-color margin-top-neg-20 font-size-15">Polo or Long Sleeves following the color motif and slacks</p>
+                                <p className ="secondary-font-color font-size-15 ">For Ladies: </p>
+                                <p className ="secondary-font-color margin-top-neg-20 font-size-15">Blouse, Cocktail or Long Dress preferably on our color palette below</p>
                             </div>
                             ) : index === 8 ? (
                                 <div>
-                                    <div className="text-align-left font-agradir">
+                                    <div className="text-align-left font-agradir font-size-15">
                                         {faq.answer}
                                     </div>
-                                    <p className ="secondary-font-color margin-top-20"> 1. Hotel Kimberly (3 minute walk from the reception)</p>
-                                    <p className ="secondary-font-color margin-top-neg-20"> 2. Hotel Monticello (10 minute drive from the reception)</p>
-                                    <p className ="secondary-font-color margin-top-neg-20"> 3. Pine Suit Tagaytay (7 minute drive from the reception)</p>
-                                    <p className ="secondary-font-color margin-top-neg-20"> 4. Any preferred Airbnb accomodations. </p>
-                                    <p className ="secondary-font-color margin-top-20 font-style-italic"> Be sure to book early, as rooms may fill up quickly around the wedding date</p>
+                                    <p className ="secondary-font-color margin-top-20 font-size-15"> 1. Hotel Kimberly (3 minute walk from the reception)</p>
+                                    <p className ="secondary-font-color margin-top-neg-20 font-size-15"> 2. Hotel Monticello (10 minute drive from the reception)</p>
+                                    <p className ="secondary-font-color margin-top-neg-20 font-size-15"> 3. Pine Suit Tagaytay (7 minute drive from the reception)</p>
+                                    <p className ="secondary-font-color margin-top-neg-20 font-size-15"> 4. Any preferred Airbnb accomodations. </p>
+                                    <p className ="secondary-font-color margin-top-20 font-style-italic font-size-15"> Be sure to book early, as rooms may fill up quickly around the wedding date</p>
                                 </div>
                             ) : index === 9 ? (
                                 <div>
-                                    <div className='font-agradir'>
+                                    <div className='font-agradir font-size-15'>
                                             <Row>
                                                 <Col md={3}>
                                                 <img
@@ -119,17 +119,17 @@ const WeddingFAQ = () => {
                                                     />
                                                 </Col>
                                                 <Col md={9}>
-                                                    <p className='text-align-left secondary-font-color'>Scan the QR code or visit <a target="_blank" href ="https://docs.google.com/forms/d/e/1FAIpQLScnYfvdYuqF2xRt4V3g1HkJeJZgj3buR3gckQzFZ_oARNijPg/viewform" >https://docs.google.com/forms/d/e/1FAIpQLScnYfvdYuqF2xRt4V3g1HkJeJZgj3buR3gckQzFZ_oARNijPg/viewform</a> and kindly send your RSVP as soon as you can.</p>
-                                                    <p className='text-align-left secondary-font-color margin-top-20'>The latest we can accept is on <span className= "font-weight-bold ">December 8, 2024 </span>. If we will not receive a response by this date, it will marked as "NO".</p>
+                                                    <p className='text-align-left secondary-font-color font-size-15'>Scan the QR code or visit <a target="_blank" href ="https://docs.google.com/forms/d/e/1FAIpQLScnYfvdYuqF2xRt4V3g1HkJeJZgj3buR3gckQzFZ_oARNijPg/viewform" > Wedding Form </a> and kindly send your RSVP as soon as you can.</p>
+                                                    <p className='text-align-left secondary-font-color margin-top-20 font-size-15'>The latest we can accept is on <span className= "font-weight-bold ">December 8, 2024 </span>. If we will not receive a response by this date, it will marked as "NO".</p>
 
-                                                    <p className='text-align-left secondary-font-color margin-top-20'>We will miss you celebrating with us; however we must promptly provide the total guest count to the venue, and cannot accept late RSVP past in this point.</p>
-                                                    <p className='text-align-left secondary-font-color margin-top-20'>We hope you understand. Thank you</p>.
+                                                    <p className='text-align-left secondary-font-color margin-top-20 font-size-15'>We will miss you celebrating with us; however we must promptly provide the total guest count to the venue, and cannot accept late RSVP past in this point.</p>
+                                                    <p className='text-align-left secondary-font-color margin-top-20 font-size-15'>We hope you understand. Thank you</p>.
                                                 </Col>
                                             </Row>
                                     </div>
                                 </div>
                             ) : (
-                            <div className="text-align-left font-agradir">
+                            <div className="text-align-left font-agradir font-size-15">
                                 {faq.answer}
                             </div>
                         )}
