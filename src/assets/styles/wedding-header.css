@@ -30,26 +30,10 @@
     margin-top: 690px !important
   }
 
-  /* Laptop Reso 150% */
+
     /* 175% Resolution */
     @media (min-resolution: 1.5dppx) and (max-resolution: 2dppx) {
-      .logo-template {
-        font-size: 40px !important;
-        margin-left: 42px !important;
-      }
-  
-      .head-template{
-        margin-top: 280px !important;
-      }
-
-      .header-title {
-        font-size: 40px; /* Smaller font size on mobile */
-      }
-    
-      .header-subtitle {
-        font-size: 14px;
-        text-shadow: 1px 1px 3px rgba(1, 1, 1, 1) !important;
-      }
+      
   
     }
 
@@ -96,7 +80,7 @@
     }
 
     .head-template{
-      margin-top: 300px !important;
+      margin-top: 500px !important;
       padding-left: 26px !important;
     }
 
