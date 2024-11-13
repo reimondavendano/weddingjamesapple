@@ -115,7 +115,7 @@
     .img-4-template {
       width: 17% !important;
       left: 281px !important;
-      top: -302px !important;
+      top: -308px !important;
     }
 
     .color-palette{
@@ -124,6 +124,7 @@
 
     .mobile-center-text{
       text-align: center !important;
+      z-index: 30;
     }
 
     .color-circle{

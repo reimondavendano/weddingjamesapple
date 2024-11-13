@@ -147,9 +147,9 @@
    /* Responsive adjustments */
    @media (max-width: 640px) {
 
-    .introduction-section {
+    /* .introduction-section {
       margin-top: -170px;
-    }
+    } */
 
     .margin-left-110{
         margin-left: -15px !important;
