@@ -62,7 +62,7 @@ const WeddingFAQ = () => {
         answer: 'We recommend the following nearby accomodation',
     },
     {
-        question: 'How do I send RSVP?',
+        question: 'How do I send my RSVP?',
         answer: 'We request an unplugged ceremony, but feel free to take photos and videos at the reception!',
         image: qrrsvp
     },
