@@ -119,8 +119,7 @@ const WeddingFAQ = () => {
                                                     />
                                                 </Col>
                                                 <Col md={9}>
-                                                    <p className='text-align-left secondary-font-color font-size-15'>Scan the QR code or visit <a target="_blank" href ="https://docs.google.com/forms/d/e/1FAIpQLScnYfvdYuqF2xRt4V3g1HkJeJZgj3buR3gckQzFZ_oARNijPg/viewform" > Wedding Form </a> and kindly send your RSVP as soon as you can.</p>
-                                                    <p className='text-align-left secondary-font-color margin-top-20 font-size-15'>The latest we can accept is on <span className= "font-weight-bold ">December 18, 2024 </span>. If we will not receive a response by this date, it will marked as "NO".</p>
+                                                    <p className='text-align-left secondary-font-color font-size-15'>Scan the QR code or visit <a target="_blank" href ="https://docs.google.com/forms/d/e/1FAIpQLScnYfvdYuqF2xRt4V3g1HkJeJZgj3buR3gckQzFZ_oARNijPg/viewform" > Wedding Form </a> and kindly send your RSVP on or before <span className= "font-weight-bold ">December 18, 2024</span>. We hope you understand. Thank you!</p>
 
                                                     <p className='text-align-left secondary-font-color margin-top-20 font-size-15'>We will miss you celebrating with us; however we must promptly provide the total guest count to the venue, and cannot accept late RSVP past in this point.</p>
                                                     <p className='text-align-left secondary-font-color margin-top-20 font-size-15'>We hope you understand. Thank you</p>.

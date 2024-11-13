@@ -10,7 +10,7 @@ import MapTemplate from './MapTemplate';
 const mapsUrlLeanel = "https://www.google.com/maps/place/Leanel's+Garden+Events+Place,+Rd,+Daang+Luma,+Tagaytay,+4120+Cavite/@14.1204223,120.9355974,19z/data=!4m6!3m5!1s0x33bd77cba8875809:0xaaea4a7b375462cb!8m2!3d14.121117!4d120.9351446!16s%2Fg%2F11h6qdxr5l"; // Replace with your actual Maps link
 const mapsUrlChapel = 'https://www.google.com/maps/place/Don+Bosco+Chapel+on+the+Hill/@14.0575893,120.8368453,19z/data=!4m6!3m5!1s0x33bd9c26637ae0a1:0x469e957a8a28f790!8m2!3d14.0574537!4d120.8360742!16s%2Fg%2F1hc3jvf30?entry=ttu&g_ep=EgoyMDI0MTEwNi4wIKXMDSoASAFQAw%3D%3D'; // Replace with your actual Maps link
 
-const title1 = 'Don Bosco, Chapel On The Hill';
+const title1 = 'Don Bosco Chapel On The Hill';
 const subtext1 = 'Batulao Rd., Brgy. Cahil, Calaca, Batangas';
 const title2 = "Leanel's Garden";
 const subtext2 = 'Daang Luma Rd., Brgy. Kaybagal North, Tagaytay City';
