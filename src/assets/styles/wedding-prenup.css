@@ -104,6 +104,15 @@
     object-fit: contain;
   }
 
+  
+
+   /* 175% Resolution */
+   @media (min-resolution: 1.5dppx) and (max-resolution: 2dppx) {
+    .video-soon {
+      margin-left: 360px;
+    }
+   }
+
   /* 150% Resolution */
   @media (min-resolution: 1.25dppx) and (max-resolution: 1.5dppx) {
     .prenup-section{
@@ -123,7 +132,7 @@
     }
 
     .video-soon{
-      margin-left: 24px;
+      margin-left: 55px;
       width: 70%;
       margin-top: 3rem;
     }

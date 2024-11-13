@@ -213,6 +213,19 @@ a.wedding-button, a.wedding-button:hover, a.wedding-button:active{
   }
 }
 
+
+  /* 175% Resolution */
+  @media (min-resolution: 1.5dppx) and (max-resolution: 2dppx) {
+    .margin-left-110 {
+      margin-left: 110px !important;
+    }
+
+    .global-standard-height {
+      height: 175vh !important;
+    }
+
+  }
+
  /* 150% Resolution */
  @media (min-resolution: 1.25dppx) and (max-resolution: 1.5dppx) {
   .logo-template {

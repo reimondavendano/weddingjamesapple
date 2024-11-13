@@ -70,6 +70,21 @@
     top: 41px !important
   }
 
+  
+   /* 175% Resolution */
+   @media (min-resolution: 1.5dppx) and (max-resolution: 2dppx) {
+    .img-3-template {
+      width: 70% !important;
+      left: -252px !important;
+      top: 41px !important;
+    }
+
+    .img-4-template {
+      width: 60% !important;
+      left: -141px !important;
+      top: 97px !important;
+    }
+   }
 
   /* 150% Resolution */
   @media (min-resolution: 1.25dppx) and (max-resolution: 1.5dppx) {
