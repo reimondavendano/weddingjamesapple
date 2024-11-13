@@ -15,12 +15,16 @@
     opacity: 0.5;
   }
 
+  .video-container {
+    margin-left: 485px
+  }
+
   .embeded-video {
-    display: none !important;
+    display: block !important;
   }
 
   .embeded-video-soon{
-    display: block !important;
+    display: none !important;
   }
   
   .slider-container {
@@ -112,6 +116,10 @@
     .video-soon {
       margin-left: 360px;
     }
+
+    .video-container {
+      margin-left: 280px;
+    }
    }
 
   /* 150% Resolution */
@@ -123,6 +131,10 @@
     .video-soon{
       margin-left: 476px;
       width: 75%;
+    }
+
+    .video-container {
+      margin-left: 375px;
     }
   }
 
@@ -137,5 +149,12 @@
       width: 70%;
       margin-top: 3rem;
     }
+
+    .video-container{
+      margin-left: 0px !important;
+      margin-top: 75px !important;
+    }
+
+
   }
   

@@ -1,22 +1,33 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col, Modal } from 'react-bootstrap';
 import '../assets/styles/wedding-prenup.css'; // Import your custom CSS for styling
-import ja1 from '../assets/images/gallery-img/1.jpeg';
-import ja2 from '../assets/images/gallery-img/2.jpeg';
-import ja3 from '../assets/images/gallery-img/3.jpeg';
-import ja4 from '../assets/images/gallery-img/4.jpeg';
-import ja5 from '../assets/images/gallery-img/5.jpeg';
-import ja6 from '../assets/images/gallery-img/6.jpeg';
-import ja7 from '../assets/images/gallery-img/7.jpeg';
-import ja8 from '../assets/images/gallery-img/8.jpeg';
-import ja9 from '../assets/images/gallery-img/9.jpeg';
-import ja10 from '../assets/images/gallery-img/10.jpeg';
+import ja1 from '../assets/images/prenup/prenup00.jpg';
+import ja2 from '../assets/images/prenup/prenup01.jpg';
+import ja3 from '../assets/images/prenup/prenup02.jpg';
+import ja4 from '../assets/images/prenup/prenup03.jpg';
+import ja5 from '../assets/images/prenup/prenup04.jpg';
+import ja6 from '../assets/images/prenup/prenup04a.jpg';
+import ja7 from '../assets/images/prenup/prenup05.jpg';
+import ja9 from '../assets/images/prenup/prenup07.jpg';
+import ja10 from '../assets/images/prenup/prenup08.jpg';
+import ja11 from '../assets/images/prenup/prenup09.jpg';
+import ja12 from '../assets/images/prenup/prenup10.jpg';
+import ja13 from '../assets/images/prenup/prenup11.jpg';
+import ja14 from '../assets/images/prenup/prenup12.jpg';
+import ja15 from '../assets/images/prenup/prenup13.jpg';
+import ja16 from '../assets/images/prenup/prenup14.jpg';
+import ja17 from '../assets/images/prenup/prenup15.jpg';
+import ja18 from '../assets/images/prenup/prenup16.jpg';
+import ja19 from '../assets/images/prenup/prenup17.jpg';
+import ja20 from '../assets/images/prenup/prenup18.jpg';
+import ja21 from '../assets/images/prenup/prenup19.jpg';
+
 import Slider from 'react-slick';
 import styled from 'styled-components';
 import IFrameComponent from './IFrameComponent';
 import videosoon from '../assets/images/video-soon.png';
 
-const PrenupURL = 'https://www.youtube.com/embed/tN8ggkmGQDE?si=LK3-0MTdCrmDmWHj';
+const PrenupURL = 'https://www.youtube.com/embed/eUNUY3pZ1NQ';
 const title = 'PreNup Video';
 
 const GalleryWrapper = styled.div`
@@ -130,7 +141,7 @@ const WeddingPrenup = () => {
     ],
   };
 
-  const images = [ja1, ja2, ja3, ja4, ja5, ja6, ja7, ja8, ja9, ja10];
+  const images = [ja1, ja2, ja3, ja4, ja5, ja6, ja7, ja9, ja10, ja11, ja12, ja13, ja14, ja15, ja16, ja17, ja18, ja19, ja20, ja21];
 
   
   return (
@@ -169,9 +180,11 @@ const WeddingPrenup = () => {
           </Col>
         </Row>
         <Row className='margin-top-55 margin-bottom-140 justify-content-center embeded-video'>
-            <Col md= {6} className='justify-content-center'>
+            <Col md= {3} className='justify-content-center'></Col>
+            <Col md= {6} className='justify-content-center video-container'>
                 <IFrameComponent embedURL={PrenupURL} title={title} />
             </Col>
+            <Col md= {3} className='justify-content-center'></Col>
         </Row>
         <Row className='margin-top-55 margin-bottom-140 justify-content-center embeded-video-soon'>
             <Col md={4}></Col>

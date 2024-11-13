@@ -12,11 +12,29 @@
     height: 100%;
     position: absolute;
   }
+
   
-  /* Adjust for screens 480px and smaller */
+
+    
+
+
+   /* 175% Resolution */
+   @media (min-resolution: 1.5dppx) and (max-resolution: 2dppx) {
+
+
+   }
+
+  /* 150% Resolution */
+  @media (min-resolution: 1.25dppx) and (max-resolution: 1.5dppx) {
+   
+  
+  }
+
+  /* Responsive layout for mobile devices */
   @media (max-width: 640px) {
     .video-responsive {
       padding-bottom: 75%; /* Adjust aspect ratio for a smaller screen */
-    }
- }
+   }
+  }
+ 
   
