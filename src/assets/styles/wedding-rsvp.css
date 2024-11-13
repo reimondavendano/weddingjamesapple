@@ -34,8 +34,8 @@
     height: 100vh;
   }
 
-  /* laptop / desktop  150% reso*/
-  @media (max-width: 1280px) {
+   /* 150% Resolution */
+   @media (min-resolution: 1.25dppx) and (max-resolution: 1.5dppx) {
     .img-footer {
       background-size: 40% auto !important;
       height: 100px !important;

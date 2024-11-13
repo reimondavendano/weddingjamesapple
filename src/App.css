@@ -166,6 +166,10 @@ a.wedding-button, a.wedding-button:hover, a.wedding-button:active{
   transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
 }
 
+.font-size-10{
+  font-size: 10px;
+}
+
 .margin-top-neg-20 {
   margin-top: -20px !important;
 }
@@ -209,15 +213,15 @@ a.wedding-button, a.wedding-button:hover, a.wedding-button:active{
   }
 }
 
-/* Laptop Reso 150% */
-@media (max-width: 1280px) {
+ /* 150% Resolution */
+ @media (min-resolution: 1.25dppx) and (max-resolution: 1.5dppx) {
   .logo-template {
     font-size: 40px;
     margin-left: 42px;
   }
 
   .font-size-16 {
-    font-size: 12px;
+    font-size: 14px !important;
   }
 
   .global-standard-height {
@@ -264,7 +268,7 @@ a.wedding-button, a.wedding-button:hover, a.wedding-button:active{
   }
 
   .global-text-template{
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .margin-top-55 {
@@ -297,6 +301,10 @@ a.wedding-button, a.wedding-button:hover, a.wedding-button:active{
 
   .font-size-15{
     font-size: 12px !important
+  }
+
+  .font-size-16{
+    font-size: 10px !important
   }
 
 }

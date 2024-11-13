@@ -71,7 +71,8 @@
   }
 
 
-  @media (max-width: 1280px) {
+  /* 150% Resolution */
+  @media (min-resolution: 1.25dppx) and (max-resolution: 1.5dppx) {
     .margin-left-90 {
         margin-left: 60px;
     }
@@ -110,11 +111,18 @@
     }
 
     .color-palette{
-        margin-left: 95px !important;
+      margin-left: 23%;
     }
 
     .mobile-center-text{
       text-align: center !important;
     }
+
+    .color-circle{
+      width: 25px;
+      height: 25px;
+    }
+
+    
   }
   

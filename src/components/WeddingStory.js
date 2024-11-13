@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../assets/styles/wedding-story.css'; // Import your custom CSS for styling
-import ja1 from '../assets/images/gallery-img/1.jpeg';
-import ja2 from '../assets/images/gallery-img/2.jpeg';
-import ja3 from '../assets/images/gallery-img/3.jpeg';
-import ja4 from '../assets/images/gallery-img/4.jpeg';
-import ja5 from '../assets/images/gallery-img/5.jpeg';
+import story1 from '../assets/images/story-img/ourstory_2013.png';
+import story2 from '../assets/images/story-img/ourstory_2023.png';
+
 import { Chrono } from 'react-chrono';
 
 
@@ -15,64 +13,33 @@ const WeddingStory = () => {
   // Data for the timeline
 const timelineData = [
     {
-        title: "First Met",
-        cardTitle: "Start of the Journey",
-        cardSubtitle: "An old-school adventure",
-        cardDetailedText: "This marks the start of an adventure filled with charm and heritage.",
+        title: "2013",
+        cardTitle: "Office Heartstrings",
+        cardDetailedText: [
+                            "It all started in 2013 when James and Apple first crossed paths during Apple’s job interview, with James working in the same room. Soon after, casual office chats turned into a real friendship. ", 
+                           "Over time, their conversations grew deeper, and laughter became something they shared often. James courted Apple with genuine gestures and thoughtful surprises, making his intentions clear. With patience and care, he pursued her, showing the same dedication he brings to everything that matters. After spending months growing closer and building trust, Apple finally opened her heart to James and told him, 'I love you,' marking the start of their love story."
+                          ],
         media: {
             type: "IMAGE",
             source: {
-            url: ja1, // replace with your image URL
+            url: story1, // replace with your image URL
             },
         },
     },
     {
-        title: "First Travel",
-        cardTitle: "Memories Preserved",
-        cardSubtitle: "Reliving the past",
-        cardDetailedText: "Exploring the beauty and simplicity of the golden days.",
+        title: "2023",
+        cardTitle: "A Decade of love, A Lifetime to go",
+        cardDetailedText: [
+          "What began as a simple office meeting in 2013 soon blossomed into something much deeper. Over time, James and Apple discovered countless things they loved doing together—whether trying new foods, going on road trips, or sharing hobbies, they always found ways to stay connected.", 
+          "Despite life’s challenges, their love remained strong, rooted in deep faith and trust in God’s guidance. Each year brought them closer, turning everyday moments into cherished memories.",
+          "James felt it was the right time to take the next step. With God's perfect timing, he proposed to Apple on August 28, 2023, in Laguna, with the help of their 'Roadtrip Friends.' Apple responded with 'Syempre!' marking the beginning of their journey toward a lifetime of happiness and love. "
+        ],
         media: {
         type: "IMAGE",
         source: {
-            url: ja2, // replace with your image URL
+            url: story2, // replace with your image URL
         },
         },
-    },
-    {
-        title: "First Date",
-        cardTitle: "Memories Preserved",
-        cardSubtitle: "Reliving the past",
-        cardDetailedText: "Exploring the beauty and simplicity of the golden days.",
-        media: {
-            type: "IMAGE",
-            source: {
-            url: ja3, // replace with your image URL
-            },
-        },
-    },
-    {
-        title: "Office Days",
-        cardTitle: "Memories Preserved",
-        cardSubtitle: "Reliving the past",
-        cardDetailedText: "Exploring the beauty and simplicity of the golden days.",
-        media: {
-            type: "IMAGE",
-            source: {
-            url: ja4, // replace with your image URL
-            },
-        },
-    },
-    {
-      title: "Marriage",
-      cardTitle: "Embracing the Tradition",
-      cardSubtitle: "Old-world charm",
-      cardDetailedText: "Keeping rustic traditions alive while moving forward.",
-      media: {
-        type: "IMAGE",
-        source: {
-          url: ja5, // replace with your image URL
-        },
-      },
     },
   ];
 
@@ -103,7 +70,17 @@ const timelineData = [
             <Col md={12} className="text-center justify-content-center">
                 <div className="story-container">
                     <Chrono
-                            items={timelineData}
+                            items={timelineData.map(item => ({
+                              ...item,
+                              // Render cardDetailedText as separate lines in JSX
+                              cardDetailedText: (
+                                <div>
+                                  {item.cardDetailedText.map((line, index) => (
+                                    <p className = "font-agradir font-size-10" key={index} style={{ margin: 0, marginBottom: "1rem" }}>{line}</p>
+                                  ))}
+                                </div>
+                              ),
+                            }))}
                             mode="VERTICAL_ALTERNATING"
                             cardHeight={250}
                             cardWidth={300}
