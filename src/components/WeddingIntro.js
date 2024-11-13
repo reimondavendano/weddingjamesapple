@@ -62,7 +62,7 @@ const WeddingIntro = () => {
                     <Col md={6}>
                         <div className="vertical-line-container"> </div>
                         <div className='chapel-container'>
-                                <p className="chapel-headtext font-size-16"> DON BASCO, CHAPEL ON THE HILL</p>
+                                <p className="chapel-headtext font-size-16"> DON BOSCO, CHAPEL ON THE HILL</p>
                                 <p className="chapel-subtext font-size-16"> CALACA, BATANGAS </p>
                                 <div className ="position-relative chapel-img-container">
                                     <img src={chapel} alt="Responsive Image" className="img-fluid custom-image chapel-img-pos" />
