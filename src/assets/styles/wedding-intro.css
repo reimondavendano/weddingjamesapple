@@ -166,9 +166,14 @@
    /* Responsive adjustments */
    @media (max-width: 640px) {
 
-    /* .introduction-section {
-      margin-top: -170px;
-    } */
+    .border-top-bottom {
+      border-top: 1px solid #000;
+      border-bottom: 1px solid #000;
+      margin-top: 0px;
+      margin-bottom: 2px;
+      margin-top: -14px;
+    
+    }
 
     .margin-left-110{
         margin-left: -15px !important;
@@ -205,9 +210,10 @@
         margin-top: 50px;
     }
 
-    .chapel-img-pos{
+    .chapel-img-pos {
       margin-top: -48px;
-      width: 50%;
+      width: 55%;
+      margin-left: 45px;
     }
 
     .recept-img-pos{
@@ -228,11 +234,12 @@
     }
 
     .chapel-subtext{
-      margin-left: -33px;
+      margin-left: 55px;
     }
 
     .chapel-headtext{
-      margin-left:45px;
+      margin-left: 70px;
+      margin-top: 20px;
     }
     
   }
