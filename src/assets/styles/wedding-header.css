@@ -71,12 +71,14 @@
     } */
 
     .header-title {
-      font-size: 40px; /* Smaller font size on mobile */
+      font-size: 45px; /* Smaller font size on mobile */
+      letter-spacing: 1px
     }
   
     .header-subtitle {
-      font-size: 14px;
+      font-size: 12px;
       text-shadow: 1px 1px 3px rgba(1, 1, 1, 1) !important;
+      letter-spacing: 5px
     }
 
     .head-template{
