@@ -11,7 +11,8 @@
   }
 
   .video-soon{
-    margin-left: 615px
+    margin-left: 615px;
+    opacity: 0.5;
   }
 
   .embeded-video {
