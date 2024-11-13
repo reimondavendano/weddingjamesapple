@@ -98,11 +98,13 @@
     }
 
     .img-3-template {
+      width: 36% !important;
       left: -221px !important;
       top: 29px !important;
     }
 
     .img-4-template {
+      width: 36% !important;
       width: 30% !important;
       left: -149px !important;
       top: 115px !important;
