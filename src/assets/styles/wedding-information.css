@@ -106,12 +106,20 @@
         margin-left: 160px !important
     }
 
-    .img-3-template, .img-4-template {
-        display: none !important;
+    .img-3-template {
+      width: 21% !important;
+      left: 38px !important;
+      top: -314px !important;
+    }
+
+    .img-4-template {
+      width: 17% !important;
+      left: 281px !important;
+      top: -302px !important;
     }
 
     .color-palette{
-      margin-left: 23%;
+      margin-left: 34%;
     }
 
     .mobile-center-text{

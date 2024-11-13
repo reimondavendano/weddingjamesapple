@@ -80,14 +80,14 @@
 
   /* Mobile */
   @media (max-width: 640px) {
-    .header-section {
+    /* .header-section {
       
       background-size: 120% auto !important;
       background-position: top !important;
-    }
+    } */
 
     .header-title {
-      font-size: 28px; /* Smaller font size on mobile */
+      font-size: 40px; /* Smaller font size on mobile */
     }
   
     .header-subtitle {
