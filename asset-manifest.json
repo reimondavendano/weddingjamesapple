@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/weddingjamesapple/static/css/main.02bb4861.css",
-    "main.js": "/weddingjamesapple/static/js/main.bca9f842.js",
+    "main.css": "/weddingjamesapple/static/css/main.f87ec656.css",
+    "main.js": "/weddingjamesapple/static/js/main.eaad25a4.js",
     "static/js/453.58aa0b52.chunk.js": "/weddingjamesapple/static/js/453.58aa0b52.chunk.js",
+    "static/media/ourstory_2013.png": "/weddingjamesapple/static/media/ourstory_2013.2064033ecc181026db78.png",
+    "static/media/ourstory_2023.png": "/weddingjamesapple/static/media/ourstory_2023.da33c7a454c3222137cd.png",
     "static/media/home-bg.jpg": "/weddingjamesapple/static/media/home-bg.7b31128b6acf0cc16aa4.jpg",
     "static/media/6.jpeg": "/weddingjamesapple/static/media/6.9e58dc04ef3f2ecb8dfe.jpeg",
     "static/media/CormorantGaramond-Regular.ttf": "/weddingjamesapple/static/media/CormorantGaramond-Regular.ec49e37220273b5a5f0e.ttf",
@@ -39,6 +41,7 @@
     "static/media/champagne.png": "/weddingjamesapple/static/media/champagne.9f3872a827abc8b7b1d8.png",
     "static/media/fa-regular-400.woff2": "/weddingjamesapple/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
     "static/media/wedding-ring.png": "/weddingjamesapple/static/media/wedding-ring.54b65fe03a1b04581610.png",
+    "static/media/video-soon.png": "/weddingjamesapple/static/media/video-soon.901bebd57a2c0a077023.png",
     "static/media/fa-v4compatibility.ttf": "/weddingjamesapple/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/weddingjamesapple/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "static/media/logo.svg": "/weddingjamesapple/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
@@ -47,12 +50,12 @@
     "static/media/slick.ttf": "/weddingjamesapple/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/weddingjamesapple/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/weddingjamesapple/index.html",
-    "main.02bb4861.css.map": "/weddingjamesapple/static/css/main.02bb4861.css.map",
-    "main.bca9f842.js.map": "/weddingjamesapple/static/js/main.bca9f842.js.map",
+    "main.f87ec656.css.map": "/weddingjamesapple/static/css/main.f87ec656.css.map",
+    "main.eaad25a4.js.map": "/weddingjamesapple/static/js/main.eaad25a4.js.map",
     "453.58aa0b52.chunk.js.map": "/weddingjamesapple/static/js/453.58aa0b52.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.02bb4861.css",
-    "static/js/main.bca9f842.js"
+    "static/css/main.f87ec656.css",
+    "static/js/main.eaad25a4.js"
   ]
 }
