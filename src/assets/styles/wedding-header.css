@@ -70,6 +70,12 @@
       background-position: top !important;
     } */
 
+    .navbar-toggler {
+        color: #C85103 !important;
+        background-color: #fff !important;
+        border: 1px solid #C85103 !important
+    }
+
     .header-title {
       font-size: 45px; /* Smaller font size on mobile */
       letter-spacing: 1px

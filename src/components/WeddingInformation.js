@@ -110,6 +110,7 @@ const WeddingInformation = () => {
                         <Row>
                             <Col md ={12}>
                                 <div class="color-palette">
+                                    <div className="color-circle" style={{backgroundColor: '#9E4003'}}></div>
                                     <div className="color-circle" style={{backgroundColor: '#783B2B'}}></div>
                                     <div className="color-circle" style={{backgroundColor: '#BD4C02'}}></div>
                                     <div className="color-circle" style={{backgroundColor: '#ECCEAA'}}></div>
