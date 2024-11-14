@@ -91,9 +91,40 @@ const BackgroundBlur = styled.div`
   z-index: -1;
 `;
 
+// Navigation Buttons
+const NavigationButton = styled.button`
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  z-index: 10;
+  color: #000;
+  &:hover {
+    background-color: transparent;
+  }
+`;
+
+const PrevButton = styled(NavigationButton)`
+  left: 10px;
+`;
+
+const NextButton = styled(NavigationButton)`
+  right: 10px;
+`;
+
+
+
 
 const WeddingPrenup = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [modalImageIndex, setModalImageIndex] = useState(0);
+
+  const images = [ja1, ja2, ja3, ja4, ja5, ja6, ja7, ja9, ja10, ja11, ja12, ja13, ja14, ja15, ja16, ja17, ja18, ja19, ja20, ja21];
  
   // Scroll effect for visibility
   useEffect(() => {
@@ -111,11 +142,8 @@ const WeddingPrenup = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [modalImage, setModalImage] = useState('');
-
-  const openModal = (imageSrc) => {
-    setModalImage(imageSrc);
+  const openModal = (index) => {
+    setModalImageIndex(index);
     setIsModalOpen(true);
   };
 
@@ -123,8 +151,16 @@ const WeddingPrenup = () => {
     setIsModalOpen(false);
   };
 
+  const nextImage = () => {
+    setModalImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+  };
+
+  const previousImage = () => {
+    setModalImageIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
+  };
+
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     autoplay: true, // Enable autoplay
     autoplaySpeed: 3000, // Set the interval for autoplay (3 seconds)
@@ -141,9 +177,7 @@ const WeddingPrenup = () => {
     ],
   };
 
-  const images = [ja1, ja2, ja3, ja4, ja5, ja6, ja7, ja9, ja10, ja11, ja12, ja13, ja14, ja15, ja16, ja17, ja18, ja19, ja20, ja21];
 
-  
   return (
     <section className={`prenup-section ${isVisible ? 'visible' : ''}`}>
       <Container fluid id="prenup">
@@ -163,7 +197,7 @@ const WeddingPrenup = () => {
                     <img 
                         src={image} 
                         alt={`Gallery Image ${index + 1}`} 
-                        onClick={() => openModal(image)} 
+                        onClick={() => openModal(index)} 
                         style={{ cursor: 'pointer', width: '100%' }} 
                     />
                     </div>
@@ -172,10 +206,12 @@ const WeddingPrenup = () => {
             </GalleryWrapper>
 
             <FullScreenModal isOpen={isModalOpen} onClick={closeModal}>
-                <BackgroundBlur />
-                <ModalContent onClick={(e) => e.stopPropagation()}>
-                <ModalImage src={modalImage} alt="Full Screen" />
-                </ModalContent>
+              <BackgroundBlur />
+              <ModalContent onClick={(e) => e.stopPropagation()}>
+                <PrevButton onClick={previousImage}>&#10094;</PrevButton>
+                <ModalImage src={images[modalImageIndex]} alt="Full Screen" />
+                <NextButton onClick={nextImage}>&#10095;</NextButton>
+              </ModalContent>
             </FullScreenModal>
           </Col>
         </Row>
