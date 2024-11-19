@@ -5,13 +5,13 @@ import WeddingNavBar from './WeddingNavBar';
 
 const WeddingHeader = () => {
   return (
-    <header className="header-section">
+    <header id="home" className="header-section home">
       <WeddingNavBar />
-      <Container>
+      <Container fluid>
         <Row>
           <Col className="text-center head-template">
             <div className="header-title">JAMES & APPLE</div>
-            <div className="header-subtitle">SATURDAY. FEBRUARY 8, 2025</div>
+            <div className="header-subtitle">SATURDAY. FEBRUARY 8, 2025 | 2 PM</div>
           </Col>
         </Row>
       </Container>

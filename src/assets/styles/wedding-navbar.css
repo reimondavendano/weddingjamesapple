@@ -10,6 +10,18 @@
   .navbar-scrolled {
     background-color: rgba(0, 0, 0, 0.8);
   }
+
+  .mobile-view-nav, .menu-overlay, .side-panel  {
+    display: none;
+  }
+
+  .web-view-nav{
+    display:block
+  }
+
+
+
+
   
   .navbar-logo img {
     max-height: 40px;
@@ -33,6 +45,22 @@
     color: #C85103;
     font-size: 70px;
     margin-left: 59px;
+  }
+
+  .nav-rsvp {
+    border: 2px solid black !important;
+    background-color: white !important;
+    padding: 5px 10px ; /* Adjust padding as needed */
+    border-radius: 5px; /* Optional: add rounded corners */
+    color: black !important; /* Text color */
+    font-weight: bold; /* Optional: make the text bold */
+    text-align: center; /* Center the text */
+  }
+  
+  .nav-rsvp:hover {
+    background-color: #f0f0f0; /* Optional: add a hover effect */
+    color: black;
+    text-decoration: none;
   }
   
    
@@ -71,16 +99,28 @@
    /* Responsive adjustments mobile */
    @media (max-width: 640px) {
 
+    .mobile-view-nav, .menu-overlay, .side-panel  {
+      display: block !important;
+    }
+  
+    .web-view-nav{
+      display:none !important;
+    }
+
     .navbar {
         font-size: 12px;
+        opacity: 0.9;
+        background: #000 !important;  
     }
 
     .navbar-nav {
       text-align: left;
     }
 
-    .logo-template{
-       display: none;
+    .logo-template {
+      font-size: 30px !important;
+      margin-left: 0px !important;
+      margin-top: -22px;
     }
 
     .navbar-nav .nav-link{
@@ -88,15 +128,101 @@
     }
 
     .fixed-top {
-      position: absolute !important;  
+      position: fixed;
       top: 0;
-      right: 0;
-      left: 0;
+      z-index: 1030;
+      height: 60px;
+      opacity: 0.9;
+      background: #000 !important;
+
     }
     
     .navbar-toggler-icon{
         color: #C85103;
     }
+
+
+    /* Navbar moves to the top when scrolled */
+    .navbar-scrolled {
+      transform: translateY(0);
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+
+    /* added */
+    
+    .navbar-logo {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+    
+    .navbar-toggle {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+    
+    .navbar-scrolled {
+      background: rgba(0, 0, 0, 0.9) !important;
+      transition: background 0.3s;
+    }
+
+    .custom-navbar {
+      background-color: white;
+      transition: background-color 0.3s;
+    }
+    
+    .menu-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 1040;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s, visibility 0.3s;
+    }
+    
+    .menu-overlay.open {
+      opacity: 1;
+      visibility: visible;
+    }
+    
+    .side-panel {
+      position: fixed;
+      top: 0;
+      right: -100%;
+      height: 100%;
+      width: 300px;
+      background: white;
+      z-index: 1050;
+      transition: right 0.3s;
+      box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .side-panel.open {
+      right: 0;
+    }
+    
+    .side-panel .nav-link {
+      padding: 15px;
+      font-size: 18px;
+      color: #333;
+      text-decoration: none;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    .side-panel .nav-link:hover {
+      background: #f8f8f8;
+    }
+    
+    
+    
+    
+    
 
   }
   

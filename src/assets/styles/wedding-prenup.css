@@ -10,23 +10,6 @@
     opacity: 1;
   }
 
-  .video-soon{
-    margin-left: 615px;
-    opacity: 0.5;
-  }
-
-  .video-container {
-    margin-left: 485px
-  }
-
-  .embeded-video {
-    display: block !important;
-  }
-
-  .embeded-video-soon{
-    display: none !important;
-  }
-  
   .slider-container {
     position: relative;
     width: 80%;
@@ -113,13 +96,6 @@
 
    /* 175% Resolution */
    @media (min-resolution: 1.5dppx) and (max-resolution: 2dppx) {
-    .video-soon {
-      margin-left: 360px;
-    }
-
-    .video-container {
-      margin-left: 280px;
-    }
    }
 
   /* 150% Resolution */
@@ -128,14 +104,6 @@
       padding: 0px !important;
     }
 
-    .video-soon{
-      margin-left: 476px;
-      width: 75%;
-    }
-
-    .video-container {
-      margin-left: 375px;
-    }
   }
 
   /* Responsive layout for mobile devices */
@@ -144,16 +112,6 @@
       padding: 0px !important;
     }
 
-    .video-soon{
-      margin-left: 55px;
-      width: 70%;
-      margin-top: 3rem;
-    }
-
-    .video-container{
-      margin-left: 0px !important;
-      margin-top: 75px !important;
-    }
 
 
   }

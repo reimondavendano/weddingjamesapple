@@ -9,19 +9,23 @@ import WeddingPrenup from './components/WeddingPrenup';
 import WeddingRSVP from './components/WeddingRSVP';
 import WeddingFAQ from './components/WeddingFAQ';
 import WeddingInformation from './components/WeddingInformation';
+import WeddingProposal from './components/WeddingProposal';
+import Countdown from './components/Countdown';
 
 
 function App() {
   return (
     <div className="App">
         <WeddingHeader/>
-        <WeddingIntro/>
+        {/* <WeddingIntro/> */}
+        <WeddingStory/>
+        <WeddingProposal/>
+        <Countdown targetDate="2025-02-08T00:00:00" />
         <WeddingMap/>
         <WeddingTimeline/>
-        <WeddingStory/>
-        <WeddingPrenup/>
         <WeddingInformation/>
         <WeddingFAQ/>
+        <WeddingPrenup/>
         <WeddingRSVP/>
     </div>
   );

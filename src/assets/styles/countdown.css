@@ -1,0 +1,104 @@
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Agradir", sans-serif !important;
+    background: url('../images/prenup/prenup19.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    margin-bottom: 80px;
+}
+
+.countdown-container::before {
+    opacity: 0.8;
+}
+
+.countdown {
+    display: flex;
+    gap: 20px;
+}
+
+.time-box {
+    position: relative;
+    width: 140px;
+    height: 100px;
+    background: #ffffff;
+    margin-top: 50px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    animation: pop 1s ease-in-out infinite alternate;
+    margin-top: 10px;
+}
+
+.time-value {
+    font-size: 1.5rem;
+    color: #CC5315;
+    text-align: center;
+}
+
+.time-unit {
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    color: #333333;
+    margin-top: 10px;
+    text-align: center;
+    margin-left:5px;
+}
+
+.celebration {
+    font-size: 2rem;
+    color: #ffffff;
+    background: #CC5315;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.countdown-p {
+    font-family: "Agradir";
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    letter-spacing: 8px;
+}
+
+@keyframes pop {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+@media (max-width: 640px) {
+    .time-box {
+        width: 60px;
+        height: 60px;
+        margin-left: 3px;
+    }
+
+    .time-value {
+        font-size: 15px;
+        color: #CC5315;
+        text-align: center;
+    }
+
+    .time-unit {
+        text-transform: capitalize;
+        font-size: 9px;
+        color: #333333;
+        margin-top: 10px;
+        text-align: center;
+        margin-left: 1px;
+    }
+
+    .countdown-container{
+        margin-bottom: 80px;
+        margin-top: 60px;
+    }
+
+}

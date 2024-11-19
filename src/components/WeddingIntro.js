@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import '../assets/styles/wedding-intro.css'; // Import your custom CSS for styling
 import reception from '../assets/images/wedding-assets/Reception.png';
 import chapel from '../assets/images/wedding-assets/Church.png';
+import Countdown from './Countdown';
 
 const WeddingIntro = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -38,6 +39,14 @@ const WeddingIntro = () => {
           </Col>
         </Row>
 
+        <Row className="justify-content-center margin-top-55">
+          <Col md={4} className="text-center"></Col>
+          <Col md={4} className="text-center">
+          <Countdown targetDate="2025-02-08T00:00:00" />
+          </Col>
+          <Col md={4} className="text-center"></Col>
+        </Row>
+      
         <Row className="justify-content-center margin-top-204 margin-bottom-140 ">
             <Col md={6} className="text-center">
                 <Row className="margin-left-110">

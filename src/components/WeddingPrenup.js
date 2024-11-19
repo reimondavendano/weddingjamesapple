@@ -24,11 +24,7 @@ import ja21 from '../assets/images/prenup/prenup19.jpg';
 
 import Slider from 'react-slick';
 import styled from 'styled-components';
-import IFrameComponent from './IFrameComponent';
-import videosoon from '../assets/images/video-soon.png';
 
-const PrenupURL = 'https://www.youtube.com/embed/eUNUY3pZ1NQ';
-const title = 'PreNup Video';
 
 const GalleryWrapper = styled.div`
   width: 90%;
@@ -186,7 +182,6 @@ const WeddingPrenup = () => {
             <h1 className="global-title-template">Our Prenup</h1>
           </Col>
         </Row>
-
         <Row className="justify-content-center margin-top-55 margin-bottom-140">
           {/* Carousel for Gallery */}
           <Col md={12}>
@@ -214,22 +209,6 @@ const WeddingPrenup = () => {
               </ModalContent>
             </FullScreenModal>
           </Col>
-        </Row>
-        <Row className='margin-top-55 margin-bottom-140 justify-content-center embeded-video'>
-            <Col md= {3} className='justify-content-center'></Col>
-            <Col md= {6} className='justify-content-center video-container'>
-                <IFrameComponent embedURL={PrenupURL} title={title} />
-            </Col>
-            <Col md= {3} className='justify-content-center'></Col>
-        </Row>
-        <Row className='margin-top-55 margin-bottom-140 justify-content-center embeded-video-soon'>
-            <Col md={4}></Col>
-            <Col md= {4} className='justify-content-center'>
-                <div className="justify-content-center position-relative">
-                    <img className="img-fluid video-soon" src ={videosoon}/>
-                </div>
-            </Col>
-            <Col md={4}></Col>
         </Row>
       </Container>
     </section>

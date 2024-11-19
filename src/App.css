@@ -78,6 +78,10 @@ p {
   color : #A8623C !important
 }
 
+.white-color {
+  color: #fff;
+}
+
 .global-title-template{
     font-size: 80px;
     margin-top: 40px;
@@ -188,6 +192,10 @@ a.wedding-button, a.wedding-button:hover, a.wedding-button:active{
 
 .font-size-40 {
   font-size: 40px;
+}
+
+.font-size-50 {
+  font-size: 50px;
 }
 
 .font-size-15 {
