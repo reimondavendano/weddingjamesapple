@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/weddingjamesapple/static/css/main.e950bf93.css",
-    "main.js": "/weddingjamesapple/static/js/main.7ac8bcd6.js",
+    "main.css": "/weddingjamesapple/static/css/main.f3647b66.css",
+    "main.js": "/weddingjamesapple/static/js/main.2c071db0.js",
     "static/js/453.58aa0b52.chunk.js": "/weddingjamesapple/static/js/453.58aa0b52.chunk.js",
     "static/media/prenup16.jpg": "/weddingjamesapple/static/media/prenup16.d36cc137d15d0dc874c7.jpg",
+    "static/media/countdown-bg.png": "/weddingjamesapple/static/media/countdown-bg.4e5125f2b1935f847ac0.png",
     "static/media/prenup04a.jpg": "/weddingjamesapple/static/media/prenup04a.c45650a95adbaeaeb512.jpg",
     "static/media/prenup01.jpg": "/weddingjamesapple/static/media/prenup01.4cbc7e56777b6ab4592b.jpg",
     "static/media/prenup00.jpg": "/weddingjamesapple/static/media/prenup00.d6ba37064fd0037b552f.jpg",
@@ -17,6 +18,7 @@
     "static/media/prenup11.jpg": "/weddingjamesapple/static/media/prenup11.2ea885171aa4fb15edb7.jpg",
     "static/media/prenup14.jpg": "/weddingjamesapple/static/media/prenup14.5bd20783bdd7fd659835.jpg",
     "static/media/prenup07.jpg": "/weddingjamesapple/static/media/prenup07.0c10eb50989c73bc7324.jpg",
+    "static/media/home-mobile.jpg": "/weddingjamesapple/static/media/home-mobile.1e84fcc70cfefc0676fa.jpg",
     "static/media/prenup05.jpg": "/weddingjamesapple/static/media/prenup05.60dd125ddad9882c6e00.jpg",
     "static/media/prenup17.jpg": "/weddingjamesapple/static/media/prenup17.44e9073ca978768ab004.jpg",
     "static/media/prenup19.jpg": "/weddingjamesapple/static/media/prenup19.8ef712609c45402ba092.jpg",
@@ -24,8 +26,8 @@
     "static/media/prenup02.jpg": "/weddingjamesapple/static/media/prenup02.7cc5344b91cadd9136c6.jpg",
     "static/media/prenup10.jpg": "/weddingjamesapple/static/media/prenup10.4e9c8ae8d00c5c9f213d.jpg",
     "static/media/ourstory_2013.png": "/weddingjamesapple/static/media/ourstory_2013.2064033ecc181026db78.png",
+    "static/media/home-bg-left.jpg": "/weddingjamesapple/static/media/home-bg-left.d4763f86174a16870d0d.jpg",
     "static/media/ourstory_2023.png": "/weddingjamesapple/static/media/ourstory_2023.da33c7a454c3222137cd.png",
-    "static/media/home-bg.jpg": "/weddingjamesapple/static/media/home-bg.7b31128b6acf0cc16aa4.jpg",
     "static/media/CormorantGaramond-Regular.ttf": "/weddingjamesapple/static/media/CormorantGaramond-Regular.ec49e37220273b5a5f0e.ttf",
     "static/media/CormorantGaramond-Bold.ttf": "/weddingjamesapple/static/media/CormorantGaramond-Bold.bb109921d6bf158f2248.ttf",
     "static/media/rustic-footer.png": "/weddingjamesapple/static/media/rustic-footer.3c4335095b4d37d03c0f.png",
@@ -60,12 +62,12 @@
     "static/media/slick.ttf": "/weddingjamesapple/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/weddingjamesapple/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/weddingjamesapple/index.html",
-    "main.e950bf93.css.map": "/weddingjamesapple/static/css/main.e950bf93.css.map",
-    "main.7ac8bcd6.js.map": "/weddingjamesapple/static/js/main.7ac8bcd6.js.map",
+    "main.f3647b66.css.map": "/weddingjamesapple/static/css/main.f3647b66.css.map",
+    "main.2c071db0.js.map": "/weddingjamesapple/static/js/main.2c071db0.js.map",
     "453.58aa0b52.chunk.js.map": "/weddingjamesapple/static/js/453.58aa0b52.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e950bf93.css",
-    "static/js/main.7ac8bcd6.js"
+    "static/css/main.f3647b66.css",
+    "static/js/main.2c071db0.js"
   ]
 }
