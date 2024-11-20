@@ -28,8 +28,8 @@ const WeddingInformation = () => {
   }, []);
 
   return (
-    <section className={`information-section ${isVisible ? 'visible' : ''}`}>
-      <Container fluid id = "information" className="">
+    <section id = "information" className={`information-section ${isVisible ? 'visible' : ''}`}>
+      <Container fluid  className="">
         <Row className="justify-content-center">
             <Col md={12} className="text-center">
                 <h1 className="global-title-template"> Our Details </h1>

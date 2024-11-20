@@ -59,11 +59,16 @@ const timelineData = [
   }, []);
 
   return (
-    <section className={`story-section ${isVisible ? 'visible' : ''}`}>
-      <Container fluid id = "story" className="">
+    <section id = "story"  className={`story-section ${isVisible ? 'visible' : ''}`}>
+      <Container fluid className="">
         <Row className="justify-content-center">
             <Col md={12} className="text-center">
             <h1 className="global-title-template"> Our Story </h1>
+            </Col>
+        </Row>
+        <Row className="justify-content-center">
+            <Col md={12} className="text-center">
+            <h1 className="text-align-center  text-letter-spacing font-weight-bold font-agradir primary-font-color font-size-40" > A Decade In The Making</h1>
             </Col>
         </Row>
         <Row className="justify-content-center margin-top-55 margin-bottom-140 ">

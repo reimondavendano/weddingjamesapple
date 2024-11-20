@@ -35,8 +35,8 @@ const WeddingMap = () => {
   }, []);
 
   return (
-    <section className={`map-section ${isVisible ? 'visible' : ''}`}>
-      <Container fluid id = "events" className="background-gray height-section">
+    <section id = "events"  className={`map-section ${isVisible ? 'visible' : ''}`}>
+      <Container fluid className="background-gray height-section">
         <Row className="justify-content-center">
           <Col md={12} className="text-center">
             <h1 className="global-title-template"> Map Guide </h1>

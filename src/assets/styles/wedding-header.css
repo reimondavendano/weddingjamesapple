@@ -1,7 +1,7 @@
 /* Header CSS */
 
-.header-section {
-    background-image: url('../images/home-bg.jpg'); /* Specify the path to your image */
+.header-section-web {
+    background-image: url('../images/home-bg-left.jpg'); /* Specify the path to your image */
     background-size: cover; /* Cover the entire header area */
     background-position: center;
     background-repeat: no-repeat;
@@ -9,25 +9,35 @@
     display: flex;
     align-items: center;
   }
+
+  .web-view{
+    display: block;
+  }
+
+  .mobile-view{
+    display: none;
+  }
   
   .header-title {
     font-size: 60px;
     font-family: "Cormorant-Bold";
-    color: #C85103;
+    color: #C85103 !important;
+    text-shadow: 1px 1px 1px #000 !important;
     letter-spacing: 28px;
   }
   
   .header-subtitle {
     font-size: 24px;
     font-family: "Agradir";
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    color: #C85103 !important;
+    text-shadow: 1px 1px 1px #000 !important;
     font-weight: bold;
     letter-spacing: 16px;
   }
 
   .head-template{
-    margin-top: 690px !important
+    margin-top: 690px !important; 
+    margin-left: 44px;
   }
 
 
@@ -70,35 +80,50 @@
 
   /* Mobile */
   @media (max-width: 640px) {
-    /* .header-section {
-      
-      background-size: 120% auto !important;
-      background-position: top !important;
-    } */
-
-    .navbar-toggler {
-        color: #C85103 !important;
-        background-color: #fff !important;
-        border: 1px solid #C85103 !important
+    .header-section-mobile {
+      background-image: url('../images/home-mobile.jpg'); /* Specify the path to your image */
+      background-size: cover; /* Cover the entire header area */
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh; /* Full viewport height */
+      display: flex;
+      align-items: center;
     }
 
-    .header-title {
-      font-size: 40px; /* Smaller font size on mobile */
-      letter-spacing: 1px
-    }
-  
-    .header-subtitle {
-      font-size: 10px;
-      text-shadow: 1px 1px 3px rgba(1, 1, 1, 1) !important;
-      letter-spacing: 5px
-    }
-
-    .head-template{
-      margin-top: 500px !important;
-      padding-left: 26px !important;
-    }
-
-    .navbar-scrolled {
-      background-color: transparent !important;
-    }
+  .web-view{
+    display: none;
   }
+
+  .mobile-view{
+    display: block;
+  }
+
+  .navbar-toggler {
+      color: #C85103 !important;
+      background-color: #fff !important;
+      border: 1px solid #C85103 !important
+  }
+
+  .header-title {
+    font-size: 40px; /* Smaller font size on mobile */
+    letter-spacing: 1px;
+    color: #C85103 !important;
+    text-shadow: 1px 1px 1px #000 !important;
+  }
+
+  .header-subtitle {
+    font-size: 18px;
+    color: #C85103;
+    text-shadow: 1px 1px 1px #000 !important;
+    letter-spacing: 2px
+  }
+
+  .head-template{
+    margin-top: 550px !important;
+    margin-left: 0px !important;
+  }
+
+  .navbar-scrolled {
+    background-color: transparent !important;
+  }
+}

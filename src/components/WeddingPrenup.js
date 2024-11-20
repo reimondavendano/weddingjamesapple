@@ -175,8 +175,8 @@ const WeddingPrenup = () => {
 
 
   return (
-    <section className={`prenup-section ${isVisible ? 'visible' : ''}`}>
-      <Container fluid id="prenup">
+    <section id="prenup" className={`prenup-section ${isVisible ? 'visible' : ''}`}>
+      <Container fluid >
         <Row className="justify-content-center">
           <Col md={12} className="text-center">
             <h1 className="global-title-template">Our Prenup</h1>

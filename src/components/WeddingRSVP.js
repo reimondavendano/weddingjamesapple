@@ -25,8 +25,8 @@ const WeddingRSVP = () => {
   }, []);
 
   return (
-    <section className={`rsvp-section ${isVisible ? 'visible' : ''}`}>
-      <Container fluid id = "rsvp" className="rsvp-container">
+    <section id = "rsvp" className={`rsvp-section ${isVisible ? 'visible' : ''}`}>
+      <Container fluid  className="rsvp-container">
         <Row className="justify-content-center">
             <Col md={12} className="text-center">
             <h1 className="global-title-template"> RSVP </h1>

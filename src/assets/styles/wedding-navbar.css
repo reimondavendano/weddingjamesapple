@@ -175,7 +175,7 @@
     .heart-wrapper {
       position: absolute;
       width: 11%;
-      left: 208px;
+      left: 196px;
       top: -21px;
       animation: pop 1s ease-in-out infinite alternate;
       z-index: 4 !important;
@@ -213,7 +213,7 @@
 
     .logo-template {
       font-size: 30px !important;
-      margin-left: 0px !important;
+      margin-left: -10px !important;
       margin-top: -22px;
     }
 

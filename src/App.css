@@ -84,15 +84,15 @@ p {
 
 .global-title-template{
     font-size: 80px;
-    margin-top: 40px;
-    margin-bottom: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     color: #6D3724;
     line-height: 120px;
     letter-spacing: 0.068em;
 }
 
 .text-letter-spacing {
-  letter-spacing: 0.068em;
+  letter-spacing: 2px;
 }
 
 .background-gray{
@@ -139,7 +139,7 @@ p {
 }
 
 .margin-top-55{
-  margin-top: 55px !important
+  margin-top: 45px !important
 }
 
 .margin-top-204{
@@ -261,7 +261,11 @@ a.wedding-button, a.wedding-button:hover, a.wedding-button:active{
     }
 
     .global-standard-height {
-      height: 175vh !important;
+      height: 100vh !important;
+    }
+
+    .margin-bottom-140 {
+      margin-bottom: 0px;
     }
 
   }
