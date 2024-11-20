@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/weddingjamesapple/static/css/main.fab4f069.css",
-    "main.js": "/weddingjamesapple/static/js/main.f337bdcb.js",
+    "main.css": "/weddingjamesapple/static/css/main.64d1c45f.css",
+    "main.js": "/weddingjamesapple/static/js/main.fb8c6df6.js",
     "static/js/453.58aa0b52.chunk.js": "/weddingjamesapple/static/js/453.58aa0b52.chunk.js",
     "static/media/prenup16.jpg": "/weddingjamesapple/static/media/prenup16.d36cc137d15d0dc874c7.jpg",
     "static/media/prenup04a.jpg": "/weddingjamesapple/static/media/prenup04a.c45650a95adbaeaeb512.jpg",
@@ -42,13 +42,13 @@
     "static/media/sched.png": "/weddingjamesapple/static/media/sched.3ee7721780d97213453e.png",
     "static/media/Church.png": "/weddingjamesapple/static/media/Church.85bd3f464184a0dcfb95.png",
     "static/media/fa-regular-400.ttf": "/weddingjamesapple/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/heart.png": "/weddingjamesapple/static/media/heart.d3cf38085794ade8b457.png",
     "static/media/Agrandir-TextBold.otf": "/weddingjamesapple/static/media/Agrandir-TextBold.fd3a200fdcff3bfea9f6.otf",
     "static/media/Agrandir-Regular.otf": "/weddingjamesapple/static/media/Agrandir-Regular.ee9ba17d94a4b7dee02f.otf",
     "static/media/Ovo-Regular.ttf": "/weddingjamesapple/static/media/Ovo-Regular.3c76c39f493ca20cfc18.ttf",
     "static/media/eat.png": "/weddingjamesapple/static/media/eat.8974f073e8cf4068e133.png",
     "static/media/cheers.png": "/weddingjamesapple/static/media/cheers.9ada029ba798153f9bb5.png",
     "static/media/dance.png": "/weddingjamesapple/static/media/dance.7f6895da8eecb908cfc2.png",
-    "static/media/hart.png": "/weddingjamesapple/static/media/hart.056bba34fe2a076abb9b.png",
     "static/media/champagne.png": "/weddingjamesapple/static/media/champagne.9f3872a827abc8b7b1d8.png",
     "static/media/fa-regular-400.woff2": "/weddingjamesapple/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
     "static/media/wedding-ring.png": "/weddingjamesapple/static/media/wedding-ring.54b65fe03a1b04581610.png",
@@ -60,12 +60,12 @@
     "static/media/slick.ttf": "/weddingjamesapple/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/weddingjamesapple/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/weddingjamesapple/index.html",
-    "main.fab4f069.css.map": "/weddingjamesapple/static/css/main.fab4f069.css.map",
-    "main.f337bdcb.js.map": "/weddingjamesapple/static/js/main.f337bdcb.js.map",
+    "main.64d1c45f.css.map": "/weddingjamesapple/static/css/main.64d1c45f.css.map",
+    "main.fb8c6df6.js.map": "/weddingjamesapple/static/js/main.fb8c6df6.js.map",
     "453.58aa0b52.chunk.js.map": "/weddingjamesapple/static/js/453.58aa0b52.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fab4f069.css",
-    "static/js/main.f337bdcb.js"
+    "static/css/main.64d1c45f.css",
+    "static/js/main.fb8c6df6.js"
   ]
 }
