@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/weddingjamesapple/static/css/main.2662a448.css",
-    "main.js": "/weddingjamesapple/static/js/main.352cf02d.js",
+    "main.css": "/weddingjamesapple/static/css/main.fab4f069.css",
+    "main.js": "/weddingjamesapple/static/js/main.f337bdcb.js",
     "static/js/453.58aa0b52.chunk.js": "/weddingjamesapple/static/js/453.58aa0b52.chunk.js",
     "static/media/prenup16.jpg": "/weddingjamesapple/static/media/prenup16.d36cc137d15d0dc874c7.jpg",
     "static/media/prenup04a.jpg": "/weddingjamesapple/static/media/prenup04a.c45650a95adbaeaeb512.jpg",
@@ -48,6 +48,7 @@
     "static/media/eat.png": "/weddingjamesapple/static/media/eat.8974f073e8cf4068e133.png",
     "static/media/cheers.png": "/weddingjamesapple/static/media/cheers.9ada029ba798153f9bb5.png",
     "static/media/dance.png": "/weddingjamesapple/static/media/dance.7f6895da8eecb908cfc2.png",
+    "static/media/hart.png": "/weddingjamesapple/static/media/hart.056bba34fe2a076abb9b.png",
     "static/media/champagne.png": "/weddingjamesapple/static/media/champagne.9f3872a827abc8b7b1d8.png",
     "static/media/fa-regular-400.woff2": "/weddingjamesapple/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
     "static/media/wedding-ring.png": "/weddingjamesapple/static/media/wedding-ring.54b65fe03a1b04581610.png",
@@ -59,12 +60,12 @@
     "static/media/slick.ttf": "/weddingjamesapple/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/weddingjamesapple/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/weddingjamesapple/index.html",
-    "main.2662a448.css.map": "/weddingjamesapple/static/css/main.2662a448.css.map",
-    "main.352cf02d.js.map": "/weddingjamesapple/static/js/main.352cf02d.js.map",
+    "main.fab4f069.css.map": "/weddingjamesapple/static/css/main.fab4f069.css.map",
+    "main.f337bdcb.js.map": "/weddingjamesapple/static/js/main.f337bdcb.js.map",
     "453.58aa0b52.chunk.js.map": "/weddingjamesapple/static/js/453.58aa0b52.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2662a448.css",
-    "static/js/main.352cf02d.js"
+    "static/css/main.fab4f069.css",
+    "static/js/main.f337bdcb.js"
   ]
 }

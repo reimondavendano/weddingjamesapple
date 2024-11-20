@@ -27,10 +27,11 @@
   .navbar-nav .nav-link {
     color: white;
     margin-right: 1rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);  /* Black shadow for outline effect */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);  /* Black shadow for outline effect */
     font-weight: bold;
     margin-top: -57px;
     font-size: 22px;
+    
   }
   
   .nav-link:hover, .nav-link.active {
@@ -45,19 +46,25 @@
   }
 
   .nav-rsvp {
-    border: 1px solid black !important;
-    background-color: white !important;
+    border: 2px solid #C85103 !important;
+    /* background-color: white !important; */
     border-radius: 5px; /* Optional: add rounded corners */
-    color: black !important; /* Text color */
+    color: #C85103 !important; /* Text color */
     font-weight: bold; /* Optional: make the text bold */
     text-align: center; /* Center the text */
+    padding: -2px;
   }
+
   
-  .nav-rsvp:hover {
+  
+  .nav-rsvp:hover, .nav-rsvp.active {
     background-color: #f0f0f0; /* Optional: add a hover effect */
     color: black;
     text-decoration: none;
   }
+
+
+  /* css if it have image */
 
   .mobile-rsvp-nav{
     display: none;
@@ -79,9 +86,9 @@
     color: white !important;
   }
 
-  
-  
-   
+  /* */
+
+
    /* Laptop Reso 150% */
     /* 175% Resolution */
     @media (min-resolution: 1.5dppx) and (max-resolution: 2dppx) {
@@ -94,6 +101,8 @@
       .heart-wrapper {
         width: 38%;
       }
+
+      
     }
 
      /* 150% Resolution */
@@ -151,22 +160,32 @@
 
     .heart-wrapper {
       position: absolute;
-      width: 18%;
-      left: 169px;
-      top: -18px;
+      width: 11%;
+      left: 208px;
+      top: -21px;
       animation: pop 1s ease-in-out infinite alternate;
       z-index: 4 !important;
     }
 
     .mobile-rsvp-direct {
-      font-family: 'Agradir-Bold', sans-serif;
+      font-family: 'Madelyn', sans-serif;
       text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
       transition: background-color 0.3s ease, color 0.3s ease;
       font-size: 16px;
-      color: #CC5315;
       text-decoration: none !important;
-      margin-left: 51.5%;
+      border: 2px solid #C85103 !important;
+      border-radius: 5px; /* Optional: add rounded corners */
+      color: #C85103 !important; /* Text color */
+      font-weight: bold; /* Optional: make the text bold */
+      text-align: center; /* Center the text */
    }
+
+    .mobile-rsvp-direct:hover, .mobile-rsvp-direct.active {
+      font-family: 'Madelyn', sans-serif;
+      background-color: #f0f0f0; /* Optional: add a hover effect */
+      color: black;
+      text-decoration: none;
+    }
     
     .navbar {
         font-size: 12px;
@@ -214,9 +233,9 @@
     
     .navbar-logo {
       position: absolute;
-      top: 10px;
-      left: 10px;
-    }
+      top: 12px;
+      left: 80px;
+  }
     
     .navbar-toggle {
       position: absolute;
