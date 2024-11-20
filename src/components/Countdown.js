@@ -38,10 +38,10 @@ const Countdown = ({ targetDate }) => {
                 <Row>
                     
                     <Col md={6}>
-                    <p className='font-agradir countdown-p  font-size-20 white-color '>We are waiting for....</p>
-                    <p className='font-madelyn countdown-p  font-size-50 white-color '>The Adventure</p>
+                    <p className='font-agradir text-align-center countdown-p  font-size-20 white-color '>We are waiting for....</p>
+                    <p className='font-madelyn text-align-center countdown-p  font-size-50 white-color '>The Adventure</p>
                     </Col>
-                    <Col md={6}>
+                    <Col md={6} className='justify-content-center'>
                        
                         {Object.keys(timeLeft).length ? (
                         <div className="countdown">
