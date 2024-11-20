@@ -42,6 +42,11 @@
     background-color: #b44a14; /* Darker shade on hover */
   }
 
+  /* 175% Resolution */
+    @media (min-resolution: 1.5dppx) and (max-resolution: 2dppx) {
+      
+    }  
+
   @media (max-width: 640px) {
     .map-img {
         position: absolute;

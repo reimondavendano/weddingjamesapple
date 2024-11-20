@@ -28,35 +28,17 @@
     display: none !important;
   }
 
-/* 175% Resolution */
-@media (min-resolution: 1.5dppx) and (max-resolution: 2dppx) {
-    .video-soon {
-      margin-left: 360px;
-    }
 
+
+  @media (min-width: 1024px) {
     .video-container {
-      margin-left: 370px;
-    }
-   }
-
-  /* 150% Resolution */
-  @media (min-resolution: 1.25dppx) and (max-resolution: 1.5dppx) {
-    .proposal-section{
-      padding: 0px !important;
+      margin-left: 25%;
     }
 
-    .video-soon{
-      margin-left: 476px;
-      width: 75%;
-    }
-
-    .video-container {
-      margin-left: 375px;
-    }
   }
 
   /* Responsive layout for mobile devices */
-  @media (max-width: 640px) {
+  @media (max-width: 767px) {
     .proposal-section{
       padding: 0px !important;
     }

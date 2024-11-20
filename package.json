@@ -1,5 +1,5 @@
 {
-  "homepage": "http://jamesandapple.site",
+  "homepage": "http://www.jamesandapple.site",
   "name": "wedding-react-app",
   "version": "0.1.0",
   "private": true,
@@ -54,4 +54,5 @@
   "devDependencies": {
     "gh-pages": "^6.2.0"
   }
+  
 }

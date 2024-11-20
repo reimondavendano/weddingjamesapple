@@ -42,19 +42,8 @@
 
 
   /* 175% Resolution */
-  @media (min-resolution: 1.5dppx) and (max-resolution: 2dppx) {
-    .logo-template {
-      font-size: 35px !important;
-      margin-left: 38px !important;
-    }
-
-    .head-template{
-      margin-top: 200px !important;
-    }
-  }
-
-  /* 150% Resolution */
-  @media (min-resolution: 1.25dppx) and (max-resolution: 1.5dppx) {
+  @media (min-width: 1024px) {
+    
     .logo-template {
       font-size: 35px !important;
       margin-left: 42px !important;
@@ -63,10 +52,46 @@
     .head-template{
       margin-top: 360px !important;
     }
+
+    .header-title {
+      font-size: 3rem; 
+      letter-spacing: 1px;
+      color: #C85103 !important;
+      text-shadow: 1px 1px 1px #000 !important;
+    }
+  
+    .header-subtitle {
+      font-size: 2rem;
+      color: #C85103;
+      text-shadow: 1px 1px 1px #000 !important;
+      letter-spacing: 2px
+    }
+
+    .head-template{
+      margin-top: 10rem !important;
+      margin-left: 0px !important;
+    }
+  
+
+  }
+  @media (min-resolution: 1.5dppx) and (max-resolution: 2dppx) {
+    
   }
 
+  /* 150% Resolution */
+  /* @media (min-resolution: 1.25dppx) and (max-resolution: 1.5dppx) {
+    .logo-template {
+      font-size: 35px !important;
+      margin-left: 42px !important;
+    }
+
+    .head-template{
+      margin-top: 360px !important;
+    }
+  } */
+
   /* 125% Resolution */
-  @media (min-resolution: 105.6dpi) and (max-resolution: 120dpi) {
+  /* @media (min-resolution: 105.6dpi) and (max-resolution: 120dpi) {
     .logo-template {
       font-size: 35px !important;
       margin-left: 50px !important;
@@ -76,7 +101,7 @@
       margin-top: 360px !important;
     }
     
-  }
+  } */
 
   /* Mobile */
   @media (max-width: 640px) {
@@ -105,14 +130,14 @@
   }
 
   .header-title {
-    font-size: 40px; /* Smaller font size on mobile */
+    font-size: 3rem; /* Smaller font size on mobile */
     letter-spacing: 1px;
     color: #C85103 !important;
     text-shadow: 1px 1px 1px #000 !important;
   }
 
   .header-subtitle {
-    font-size: 18px;
+    font-size: 2rem;
     color: #C85103;
     text-shadow: 1px 1px 1px #000 !important;
     letter-spacing: 2px

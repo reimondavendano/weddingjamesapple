@@ -34,8 +34,8 @@
     height: 100vh;
   }
 
-   /* 150% Resolution */
-   @media (min-resolution: 1.25dppx) and (max-resolution: 1.5dppx) {
+   /* Desktop Resolution */
+   @media (min-width: 1024px) {
     .img-footer {
       background-size: 40% auto !important;
       height: 100px !important;
@@ -43,7 +43,7 @@
   }
 
   /* from mobile */
-  @media (max-width: 640px) {
+  @media (max-width: 767px) {
     .img-footer{
       background-size: 120% auto !important;
       height: 100px !important;

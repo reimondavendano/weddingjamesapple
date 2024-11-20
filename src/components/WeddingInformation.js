@@ -38,7 +38,7 @@ const WeddingInformation = () => {
         <Row className="justify-content-center margin-top-55 ">
             <Col md={2}></Col>
             <Col md={4} className="text-center justify-content-center">
-                <h1 className="text-align-left mobile-center-text margin-top-50 font-weight-bold font-agradir primary-font-color margin-left-90 font-size-40" > Snap & Share </h1>
+                <h1 className="text-align-left mobile-center-text margin-top-50 font-weight-bold font-agradir primary-font-color font-size-40" > Snap & Share </h1>
                     <div className="snap-icons" >
                         <div className="content-icon">
                             <div className="icon-class1">
