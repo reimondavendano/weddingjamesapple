@@ -1,17 +1,16 @@
 // WeddingPreloader.jsx
 import React from "react";
 import '../assets/styles/wedding-preloader.css'; // Import your custom CSS for styling
+import preload from '../assets/images/preloader-img.gif';
 
 const WeddingPreloader = () => {
   return (
     <div className="preloader">
       <div className="preloader-content">
-        <div className="initials">
-          <span className="letter">James</span>
-          <span className="and">and</span>
-          <span className="letter">Apple</span>
+        <div className="preload-container">
+          <img src={preload} className="img-fluid"/>
         </div>
-        <div className="ring"></div> {/* Optional wedding ring effect */}
+        
       </div>
     </div>
   );

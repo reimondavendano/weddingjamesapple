@@ -58,8 +58,8 @@ const FullScreenModal = styled.div`
 
 const ModalContent = styled.div`
   position: relative;
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 70%;
+  max-height: 70%;
   animation: scaleUp 0.5s ease-in-out;
   
   @keyframes scaleUp {
