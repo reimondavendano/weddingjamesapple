@@ -1,0 +1,55 @@
+/* Preloader.css */
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff7f3; /* Light pink/peach background for a wedding theme */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .preloader-content {
+    text-align: center;
+    position: relative;
+  }
+  
+  .initials {
+    font-family: "Madelyn", sans-serif;
+    font-size: 60px;
+    color: #C85103; /* Rose gold or pastel tone */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeInOut 2s infinite; /* Fade-in and fade-out animation */
+  }
+  
+  .initials .letter {
+    margin: 0 10px;
+  }
+  
+  .initials .and {
+    font-size: 40px;
+    margin: 0 5px;
+    color: #c79a97; /* Slightly different pastel shade */
+  }
+  
+  /* Optional: Spinning ring around initials */
+  .ring {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    border: 3px dotted #C85103;
+    border-radius: 50%;
+    border-top: 3px solid transparent;
+    animation: spin 2s linear infinite;
+    transform: translate(-50%, -50%);
+  }
+  
+
+  

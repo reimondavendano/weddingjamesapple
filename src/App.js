@@ -11,10 +11,27 @@ import WeddingFAQ from './components/WeddingFAQ';
 import WeddingInformation from './components/WeddingInformation';
 import WeddingProposal from './components/WeddingProposal';
 import Countdown from './components/Countdown';
+import WeddingPreloader from "./components/WeddingPreloader";
+import { useEffect, useState } from 'react';
 
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 2000); // Adjust the time for the preloader duration
+    return () => clearTimeout(timer);
+  }, []);
+
+  
   return (
+    <>
+    {isLoading ? (
+      <WeddingPreloader />
+    ) : (
+
     <div className="App">
         <WeddingHeader/>
         {/* <WeddingIntro/> */}
@@ -28,6 +45,8 @@ function App() {
         <WeddingPrenup/>
         <WeddingRSVP/>
     </div>
+     )}
+  </>
   );
 }
 

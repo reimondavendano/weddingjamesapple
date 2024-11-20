@@ -207,6 +207,25 @@ a.wedding-button, a.wedding-button:hover, a.wedding-button:active{
   position: relative;
 }
 
+/* Animations */
+@keyframes spin {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
 @keyframes bounce {
   0% {
     transform: translateY(0); /* Start at the original position */
