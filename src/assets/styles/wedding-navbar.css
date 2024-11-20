@@ -16,7 +16,8 @@
   }
 
   .web-view-nav{
-    display:block
+    display:block;
+    margin-top: 40px !important;
   }
 
   
@@ -41,7 +42,7 @@
   .logo-template{
     font-family: "Ovo", sans-serif;
     color: #C85103;
-    font-size: 70px;
+    font-size: 50px;
     margin-left: 59px;
   }
 
@@ -86,6 +87,7 @@
     color: white !important;
   }
 
+
   /* */
 
 
@@ -100,6 +102,10 @@
 
       .heart-wrapper {
         width: 38%;
+      }
+
+      .web-view-nav{
+        margin-top: 0px !important;
       }
 
       
@@ -124,6 +130,10 @@
       .nav-rsvp-border{
         width: 100px;
       }
+
+      .web-view-nav{
+        margin-top: 0px !important;
+      }
     }
 
      /* 125% Resolution */
@@ -141,6 +151,10 @@
           top: 0px;
           width: 45%;
          }
+
+         .web-view-nav{
+          margin-top: 0px !important;
+        }
         
       }
 

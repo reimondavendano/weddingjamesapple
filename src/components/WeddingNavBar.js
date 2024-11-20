@@ -54,7 +54,7 @@ const WeddingNavBar = () => {
               </Nav>
             </Navbar.Collapse>
           </Col>
-          <Col md={6} lassName="text-right resolution-change mobile-view-nav">
+          <Col md={6} className="text-right resolution-change mobile-view-nav">
             <Navbar.Toggle
                   aria-controls="basic-navbar-nav"
                   className="navbar-toggle"
