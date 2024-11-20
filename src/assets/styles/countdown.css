@@ -1,4 +1,4 @@
-.countdown-container {
+.countdown-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,12 +7,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 50vh;
-    margin-bottom: 80px;
+    margin-top: 30px;
 }
 
-.countdown-container::before {
-    opacity: 0.8;
-}
+
 
 .countdown {
     display: flex;
@@ -44,7 +42,6 @@
     text-transform: capitalize;
     font-size: 0.9rem;
     color: #333333;
-    margin-top: 10px;
     text-align: center;
     margin-left:5px;
 }
