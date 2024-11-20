@@ -41,7 +41,7 @@
   }
 
 
-  /* 175% Resolution */
+  /* Desktop Resolution */
   @media (min-width: 1024px) {
     
     .logo-template {
@@ -71,40 +71,10 @@
       margin-top: 10rem !important;
       margin-left: 0px !important;
     }
-  
-
   }
-  @media (min-resolution: 1.5dppx) and (max-resolution: 2dppx) {
-    
-  }
-
-  /* 150% Resolution */
-  /* @media (min-resolution: 1.25dppx) and (max-resolution: 1.5dppx) {
-    .logo-template {
-      font-size: 35px !important;
-      margin-left: 42px !important;
-    }
-
-    .head-template{
-      margin-top: 360px !important;
-    }
-  } */
-
-  /* 125% Resolution */
-  /* @media (min-resolution: 105.6dpi) and (max-resolution: 120dpi) {
-    .logo-template {
-      font-size: 35px !important;
-      margin-left: 50px !important;
-    }
-
-    .head-template{
-      margin-top: 360px !important;
-    }
-    
-  } */
 
   /* Mobile */
-  @media (max-width: 640px) {
+  @media (max-width: 767px) {
     .header-section-mobile {
       background-image: url('../images/home-mobile.jpg'); /* Specify the path to your image */
       background-size: cover; /* Cover the entire header area */
