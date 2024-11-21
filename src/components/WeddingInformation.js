@@ -3,8 +3,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 import '../assets/styles/wedding-information.css'; // Import your custom CSS for styling
 import img3 from '../assets/images/info-image/3.png';
 import img4 from '../assets/images/info-image/4.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faInstagram, faTiktok } from '@fortawesome/free-brands-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faFacebook, faInstagram, faTiktok } from '@fortawesome/free-brands-svg-icons'
 
 
 

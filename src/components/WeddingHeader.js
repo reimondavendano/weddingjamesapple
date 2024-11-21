@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../assets/styles/wedding-header.css'; // Import your custom CSS for styling
 import WeddingNavBar from './WeddingNavBar';
