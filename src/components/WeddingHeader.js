@@ -1,29 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../assets/styles/wedding-header.css'; // Import your custom CSS for styling
 import WeddingNavBar from './WeddingNavBar';
 
 const WeddingHeader = () => {
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const section = document.querySelector('.home-section');
-      const sectionTop = section.getBoundingClientRect().top;
-      const viewportHeight = window.innerHeight;
-      
-      if (sectionTop < viewportHeight * 0.75) {
-        setIsVisible(true);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
 
   return (
     <>
-    <header id="home" className="header-section-web home web-view">
+    <header id="home" className="header-section-web web-view">
       <WeddingNavBar />
       <Container fluid>
         <Row>
@@ -40,7 +24,7 @@ const WeddingHeader = () => {
       </Container>
     </header>
 
-    <header id="home" className={"header-section-mobile mobile-view " + (`home-section ${isVisible ? 'visible' : ''}`)}>
+    <header id="homem" className="header-section-mobile mobile-view ">
     <WeddingNavBar />
     <Container fluid>
       <Row>

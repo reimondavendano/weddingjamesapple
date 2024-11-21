@@ -69,7 +69,7 @@ const WeddingNavBar = () => {
     <div className={`menu-overlay ${menuOpen ? 'open' : ''}`} onClick={() => setMenuOpen(false)}></div>
     <div className={`side-panel ${menuOpen ? 'open' : ''}`}>
       <Nav className="flex-column">
-        <Nav.Link href="#home" onClick={() => setMenuOpen(false)}>Home</Nav.Link>
+        <Nav.Link href="#homem" onClick={() => setMenuOpen(false)}>Home</Nav.Link>
         <Nav.Link href="#story" onClick={() => setMenuOpen(false)}>Our Story</Nav.Link>
         <Nav.Link href="#events" onClick={() => setMenuOpen(false)}>Events</Nav.Link>
         <Nav.Link href="#information" onClick={() => setMenuOpen(false)}>Details</Nav.Link>
