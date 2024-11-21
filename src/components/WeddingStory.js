@@ -68,7 +68,7 @@ const timelineData = [
         </Row>
         <Row className="justify-content-center">
             <Col md={12} className="text-center">
-            <h1 className="text-align-center  text-letter-spacing font-weight-bold font-agradir primary-font-color font-size-40" > A Decade In The Making</h1>
+            <h1 className="text-align-center  text-letter-spacing font-weight-bold font-agradir primary-font-color font-size-30" > A Decade In The Making</h1>
             </Col>
         </Row>
         <Row className="justify-content-center margin-top-55 margin-bottom-140 ">
@@ -81,7 +81,7 @@ const timelineData = [
                               cardDetailedText: (
                                 <div>
                                   {item.cardDetailedText.map((line, index) => (
-                                    <p className = "font-agradir font-size-10" key={index} style={{ margin: 0, marginBottom: "1rem" }}>{line}</p>
+                                    <p className = "font-agradir font-size-15" key={index} style={{ margin: 0, marginBottom: "1rem" }}>{line}</p>
                                   ))}
                                 </div>
                               ),

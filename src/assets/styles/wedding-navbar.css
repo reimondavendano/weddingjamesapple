@@ -31,7 +31,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);  /* Black shadow for outline effect */
     font-weight: bold;
     margin-top: -57px;
-    font-size: 22px;
+    font-size: 1.3rem;
     
   }
   
@@ -42,7 +42,7 @@
   .logo-template{
     font-family: "Ovo", sans-serif;
     color: #C85103;
-    font-size: 50px;
+    font-size: 3rem;
     margin-left: 59px;
   }
 
@@ -88,80 +88,10 @@
   }
 
 
-  /* */
-
-
-   /* Laptop Reso 150% */
-    /* 175% Resolution */
-    @media (min-resolution: 1.5dppx) and (max-resolution: 2dppx) {
-      .navbar-nav .nav-link {
-        margin-top: -30px;
-        font-size: 14px !important;
-        margin-right: 0px;
-      }
-
-      .heart-wrapper {
-        width: 38%;
-      }
-
-      .web-view-nav{
-        margin-top: 0px !important;
-      }
-
-      
-    }
-
-     /* 150% Resolution */
-     @media (min-resolution: 1.25dppx) and (max-resolution: 1.5dppx) {
-      .navbar-nav .nav-link {
-        margin-top: -30px;
-        font-size: 16px !important;
-        margin-right: 0px;
-        
-      }
-
-      .heart-wrapper {
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        width: 53%;
-       }
-    
-      .nav-rsvp-border{
-        width: 100px;
-      }
-
-      .web-view-nav{
-        margin-top: 0px !important;
-      }
-    }
-
-     /* 125% Resolution */
-      @media (min-resolution: 106dpi) and (max-resolution: 120dpi) {
-        .navbar-nav .nav-link {
-          margin-top: -30px;
-          font-size: 20px !important;
-          margin-right: 0px;
-          
-        }
-
-        .heart-wrapper {
-          position: absolute;
-          left: 2px;
-          top: 0px;
-          width: 45%;
-         }
-
-         .web-view-nav{
-          margin-top: 0px !important;
-        }
-        
-      }
-
      
 
    /* Responsive adjustments mobile */
-   @media (max-width: 640px) {
+   @media (max-width: 767px) {
 
     .mobile-view-nav, .menu-overlay, .side-panel, .mobile-rsvp-nav  {
       display: block !important;

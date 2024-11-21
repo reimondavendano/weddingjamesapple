@@ -40,7 +40,7 @@ const WeddingIntro = () => {
         </Row>
 
         <Row className="justify-content-center margin-top-55">
-          <Col md={4} className="text-center"></Col>
+          <Col md={4} className="text-center"></Col> 
           <Col md={4} className="text-center">
           <Countdown targetDate="2025-02-08T00:00:00" />
           </Col>

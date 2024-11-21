@@ -19,7 +19,7 @@
   }
   
   .header-title {
-    font-size: 60px;
+    font-size: 4rem;
     font-family: "Cormorant-Bold";
     color: #C85103 !important;
     text-shadow: 1px 1px 1px #000 !important;
@@ -27,7 +27,7 @@
   }
   
   .header-subtitle {
-    font-size: 24px;
+    font-size: 2rem;
     font-family: "Agradir";
     color: #C85103 !important;
     text-shadow: 1px 1px 1px #000 !important;
@@ -35,14 +35,14 @@
     letter-spacing: 16px;
   }
 
-  .head-template{
-    margin-top: 690px !important; 
-    margin-left: 44px;
+  .head-template {
+    margin-top: 20% !important;
+    margin-left: 3%;
   }
 
 
   /* Desktop Resolution */
-  @media (min-width: 1024px) {
+  /* @media (min-width: 1024px) {
     
     .logo-template {
       font-size: 35px !important;
@@ -71,7 +71,7 @@
       margin-top: 10rem !important;
       margin-left: 0px !important;
     }
-  }
+  } */
 
   /* Mobile */
   @media (max-width: 767px) {
@@ -100,7 +100,7 @@
   }
 
   .header-title {
-    font-size: 2rem; /* Smaller font size on mobile */
+    font-size: 1.8rem;
     letter-spacing: 0.5rem;
     color: #C85103 !important;
     text-shadow: 1px 1px 1px #000 !important;
@@ -114,7 +114,7 @@
   }
 
   .head-template{
-    margin-top: 550px !important;
+    margin-top: 75vh !important;
     margin-left: 0px !important;
   }
 

@@ -11,23 +11,24 @@
   
   .snap-icons {
     display: flex;
-    justify-content: right;
-    gap: 6px; /* Space between icons */
-    align-items: right;
-    /* margin-top: -44px; */
-    margin-left: -200px;
+    justify-content: center;
+    gap: 8px; /* Space between icons */
+    align-items: center;
+
   }
   
   .content-icon .icon-class1 {
     color: #D1BCA3; /* Default icon color */
     transition: color 0.3s ease;
     cursor: pointer;
+    font-size:1rem;
   }
   
   .content-icon2 .icon-class2 {
     color: #fff; /* Default icon color */
     transition: color 0.3s ease;
     cursor: pointer;
+    font-size:1rem;
   }
   
   .content-icon .icon-class1:hover {
@@ -58,59 +59,28 @@
     transform: scale(1.1); /* Slightly enlarges circle on hover */
   }
 
-  .img-4-template{
-    width: 63% !important;
-    left: -149px !important;
-    top: 115px !important;
-  }
+  .img-4-template {
+    width:50%;
+  } 
 
   .img-3-template {
-    width: 63% !important;
-    left: -221px !important;
-    top: 29px !important;
+    width:55%;
   }
 
   
 
 
-  /* Desktop Resolution */
- @media (min-width: 1024px) {
-    .margin-left-90 {
-        margin-left: 60px;
-    }
-
-    .snap-icons {
-      margin-top: -38px;
-      margin-left: 103px;
-    }
-
+  @media (max-width: 767px) {
    
 
-
-
-  }
-
-  @media (max-width: 767px) {
-    .margin-left-90 {
-        margin-left: -69px  !important;
-    }
-    
-    .snap-icons{
-        margin-top: -35px !important;
-        margin-left: 160px !important
-    }
-
-    .img-3-template {
-      width: 21% !important;
-      left: 38px !important;
-      top: -314px !important;
-    }
-
     .img-4-template {
-      width: 17% !important;
-      left: 281px !important;
-      top: -308px !important;
+      width:23%;
+    } 
+  
+    .img-3-template {
+      width:25%;
     }
+  
 
     .color-palette{
       margin-left: 29%;
