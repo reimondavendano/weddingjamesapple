@@ -100,8 +100,8 @@
   }
 
   .header-title {
-    font-size: 3rem; /* Smaller font size on mobile */
-    letter-spacing: 1rem;
+    font-size: 2rem; /* Smaller font size on mobile */
+    letter-spacing: 0.5rem;
     color: #C85103 !important;
     text-shadow: 1px 1px 1px #000 !important;
   }
@@ -110,7 +110,7 @@
     font-size: 1rem;
     color: #C85103;
     text-shadow: 1px 1px 1px #000 !important;
-    letter-spacing: 1rem
+    letter-spacing: 0.5rem
   }
 
   .head-template{
