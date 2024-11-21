@@ -6,7 +6,7 @@ import WeddingNavBar from './WeddingNavBar';
 const WeddingHeader = () => {
   return (
     <>
-    <header id="home" className="header-section-web home web-view">
+    <section id="home" className="header-section-web home web-view">
       <WeddingNavBar />
       <Container fluid>
         <Row>
@@ -21,9 +21,9 @@ const WeddingHeader = () => {
           
         </Row>
       </Container>
-    </header>
+    </section>
 
-    <header id="home" className="header-section-mobile home mobile-view">
+    <section id="home" className="header-section-mobile home mobile-view">
     <WeddingNavBar />
     <Container fluid>
       <Row>
@@ -34,7 +34,7 @@ const WeddingHeader = () => {
         
       </Row>
     </Container>
-    </header>
+    </section>
     </>
     
 
