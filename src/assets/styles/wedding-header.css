@@ -1,7 +1,7 @@
 /* Header CSS */
 
 .header-section-web {
-    background-image: url('../images/home-bg-left.jpg'); /* Specify the path to your image */
+    background-image: url('../images/home-bg-left.png'); /* Specify the path to your image */
     background-size: cover; /* Cover the entire header area */
     background-position: center;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@
     font-family: "Cormorant-Bold";
     color: #C85103 !important;
     text-shadow: 1px 1px 1px #000 !important;
-    letter-spacing: 28px;
+    letter-spacing: 50px;
   }
   
   .header-subtitle {
@@ -55,16 +55,16 @@
 
     .header-title {
       font-size: 3rem; 
-      letter-spacing: 1px;
+      letter-spacing: 1rem;
       color: #C85103 !important;
       text-shadow: 1px 1px 1px #000 !important;
     }
   
     .header-subtitle {
-      font-size: 2rem;
+      font-size: 1rem;
       color: #C85103;
       text-shadow: 1px 1px 1px #000 !important;
-      letter-spacing: 2px
+      letter-spacing: 1rem
     }
 
     .head-template{
@@ -76,7 +76,7 @@
   /* Mobile */
   @media (max-width: 767px) {
     .header-section-mobile {
-      background-image: url('../images/home-mobile.jpg'); /* Specify the path to your image */
+      background-image: url('../images/home-mobile.png'); /* Specify the path to your image */
       background-size: cover; /* Cover the entire header area */
       background-position: center;
       background-repeat: no-repeat;
@@ -101,16 +101,16 @@
 
   .header-title {
     font-size: 3rem; /* Smaller font size on mobile */
-    letter-spacing: 1px;
+    letter-spacing: 1rem;
     color: #C85103 !important;
     text-shadow: 1px 1px 1px #000 !important;
   }
 
   .header-subtitle {
-    font-size: 2rem;
+    font-size: 1rem;
     color: #C85103;
     text-shadow: 1px 1px 1px #000 !important;
-    letter-spacing: 2px
+    letter-spacing: 1rem
   }
 
   .head-template{
