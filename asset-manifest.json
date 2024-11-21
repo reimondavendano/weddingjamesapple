@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b38650ee.css",
-    "main.js": "/static/js/main.00eedd8b.js",
+    "main.css": "/static/css/main.64bc2ab7.css",
+    "main.js": "/static/js/main.7de1a2d6.js",
     "static/js/453.58aa0b52.chunk.js": "/static/js/453.58aa0b52.chunk.js",
     "static/media/prenup16.jpg": "/static/media/prenup16.d36cc137d15d0dc874c7.jpg",
     "static/media/countdown-bg.png": "/static/media/countdown-bg.4e5125f2b1935f847ac0.png",
@@ -63,12 +63,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.b38650ee.css.map": "/static/css/main.b38650ee.css.map",
-    "main.00eedd8b.js.map": "/static/js/main.00eedd8b.js.map",
+    "main.64bc2ab7.css.map": "/static/css/main.64bc2ab7.css.map",
+    "main.7de1a2d6.js.map": "/static/js/main.7de1a2d6.js.map",
     "453.58aa0b52.chunk.js.map": "/static/js/453.58aa0b52.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b38650ee.css",
-    "static/js/main.00eedd8b.js"
+    "static/css/main.64bc2ab7.css",
+    "static/js/main.7de1a2d6.js"
   ]
 }
