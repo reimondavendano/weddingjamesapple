@@ -76,7 +76,7 @@ const WeddingInformation = () => {
                     
         </Row>
         <Row>
-            <Col md={1}></Col>
+            <Col md={2}></Col>
             <Col md={6} style={{zIndex: 4}}>
             <h1 className="margin-top-55 text-align-center font-weight-bold font-agradir primary-font-color font-size-30"> Attire </h1>
                     <Row>
@@ -148,7 +148,7 @@ const WeddingInformation = () => {
                         
                     </Row>
             </Col>
-            <Col md={5}></Col>
+            <Col md={4}></Col>
 
         </Row>
       </Container>
