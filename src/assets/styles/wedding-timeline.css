@@ -108,11 +108,10 @@
     color: #6D3724;
   }
 
-   /* 150% Resolution */
-   @media (min-resolution: 1.25dppx) and (max-resolution: 1.5dppx) {
+   /* Desktop Resolution */
+ @media (min-width: 1024px) {
 
-   }
-  
+ }
   /* Responsive layout for mobile devices */
   @media (max-width: 640px) {
     .timeline-hard-coded{

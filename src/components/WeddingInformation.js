@@ -39,7 +39,7 @@ const WeddingInformation = () => {
             <Col md={2}></Col>
             <Col md={4} className="text-center justify-content-center">
                 <h1 className="text-align-left mobile-center-text margin-top-50 font-weight-bold font-agradir primary-font-color font-size-40" > Snap & Share </h1>
-                    <div className="snap-icons" >
+                    {/* <div className="snap-icons" >
                         <div className="content-icon">
                             <div className="icon-class1">
                                 <FontAwesomeIcon  icon={faFacebook} size="lg" />
@@ -55,9 +55,9 @@ const WeddingInformation = () => {
                                 <FontAwesomeIcon  icon={faTiktok} size="lg"  />
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="">
-                        <p className="text-align-left mobile-center-text snap-details font-agradir font-style-italic font-size-18 primary-font-color" style={{fontSize: '16px', marginTop: '25px'}}> Help us captured and share our precious moments using our official wedding hashtag</p>
+                        <p className="text-align-left mobile-center-text snap-details font-agradir font-style-italic font-size-18 primary-font-color" style={{fontSize: '16px', marginTop: '25px'}}> Help us capture and share our precious moments using our official wedding hashtag below on Facebook, Instagram and/or Tiktok. </p>
                         <p className="text-align-left mobile-center-text margin-top-30 font-agradir font-size-bold font-size-18 secondary-font-color"> #abeautAPPLElovestorywithJAMES</p>
                         <p className="text-align-left mobile-center-text font-agradir margin-top-neg-20 font-size-bold font-size-18 secondary-font-color"> #JAMESfoundhAPPLEyeverafter</p>
                     </div>
