@@ -76,79 +76,79 @@ const WeddingInformation = () => {
                     
         </Row>
         <Row>
-            <Col md={4}></Col>
-            <Col md={5} style={{zIndex: 4}}>
-                <h1 className="margin-top-55 text-align-center font-weight-bold font-agradir primary-font-color font-size-30"> Attire </h1>
+            <Col md={1}></Col>
+            <Col md={6} style={{zIndex: 4}}>
+            <h1 className="margin-top-55 text-align-center font-weight-bold font-agradir primary-font-color font-size-30"> Attire </h1>
                     <Row>
-                        <Col md={3}>
+                        <Col md={5}>
                             <Row>
-                                <Col md ={12}>
+                                <Col md ={1}></Col>
+                                <Col md ={5}>
                                     <div className = "image-container">
                                         <img src={img3} alt="Responsive Image" className="img-fluid img-3-template" />
                                     </div>
                                 </Col>
-                            </Row>
-                        </Col>
-                        <Col md={6}>
-                       
-                        <Row>
-                            <Col md ={12}>
-                                <div className = "margin-top-30">
-                                    <p className="text-align-center mobile-center-text font-agradir font-style-bold font-size-25 secondary-font-color"> Polo or Long Sleeve </p>
-                                    <p className="text-align-center mobile-center-text margin-top-neg-22 font-agradir font-style-italic font-size-18 secondary-font-color"> for the gentlemen</p>
-                                </div>
-                            </Col>
-                        </Row>
-
-                        <Row>
-                            <Col md ={12}>
-                                <div className = "margin-top-30">
-                                    <p className="text-align-center mobile-center-text font-agradir font-style-italic font-style-bold font-size-25 secondary-font-color"> Cocktail or Long Dress </p>
-                                    <p className="text-align-center mobile-center-text margin-top-neg-22 font-agradir font-style-italic font-size-18 secondary-font-color"> for the ladies</p>
-                                </div>
-                            </Col>
-                        </Row>
-                            
-                        <Row>
-                            <Col md ={12}>
-                                <div className = "margin-top-55">
-                                    <p className="text-align-center  mobile-center-text font-agradir font-style-italic font-size-18 secondary-font-color"> Dress fabulously in shade of rust champagne or earth tone color.</p>
-                                </div>
-                            </Col>
-                        </Row>
-
-                        <Row>
-                            <Col md ={12}>
-                                <div class="color-palette">
-                                    <div className="color-circle" style={{backgroundColor: '#9E4003'}}></div>
-                                    <div className="color-circle" style={{backgroundColor: '#783B2B'}}></div>
-                                    <div className="color-circle" style={{backgroundColor: '#BD4C02'}}></div>
-                                    <div className="color-circle" style={{backgroundColor: '#ECCEAA'}}></div>
-                                    <div className="color-circle" style={{backgroundColor: '#929292'}}></div>
-                                </div>
-                            </Col>
-                        </Row>
-
-                        <Row>
-                            <Col md ={12}>
-                                <div className = "margin-top-55">
-                                    <p className="text-align-center  mobile-center-text font-agradir font-style-italic font-size-18 secondary-font-color"> Please do not wear polo shirt, jeans or short. Strictly follow the dress code</p>
-                                </div>
-                            </Col>
-                        </Row>
-                            
-                        </Col>
-                        <Col md={3}>
-                            <Row>
-                                <Col md ={12}>
+                                <Col md ={5}>
                                     <div className = "image-container">
                                         <img src={img4} alt="Responsive Image" className="img-fluid img-4-template" />
                                     </div>
                                 </Col>
+                                <Col md ={1}></Col>
                             </Row>
                         </Col>
+                        <Col md={7}>
+                       
+                            <Row>
+                                <Col md ={12}>
+                                    <div className = "margin-top-30">
+                                        <p className="text-align-left mobile-center-text font-agradir font-style-bold font-size-25 secondary-font-color"> Polo or Long Sleeve </p>
+                                        <p className="text-align-left mobile-center-text margin-top-neg-22 font-agradir font-style-italic font-size-18 secondary-font-color"> for the gentlemen</p>
+                                    </div>
+                                </Col>
+                            </Row>
+
+                            <Row>
+                                <Col md ={12}>
+                                    <div className = "margin-top-30">
+                                        <p className="text-align-left mobile-center-text font-agradir font-style-italic font-style-bold font-size-25 secondary-font-color"> Cocktail or Long Dress </p>
+                                        <p className="text-align-left mobile-center-text margin-top-neg-22 font-agradir font-style-italic font-size-18 secondary-font-color"> for the ladies</p>
+                                    </div>
+                                </Col>
+                            </Row>
+                                
+                            <Row>
+                                <Col md ={12}>
+                                    <div className = "margin-top-55">
+                                        <p className="text-align-left  mobile-center-text font-agradir font-style-italic font-size-18 secondary-font-color"> Dress fabulously in shade of rust champagne or earth tone color.</p>
+                                    </div>
+                                </Col>
+                            </Row>
+
+                            <Row>
+                                <Col md ={12}>
+                                    <div class="color-palette">
+                                        <div className="color-circle" style={{backgroundColor: '#9E4003'}}></div>
+                                        <div className="color-circle" style={{backgroundColor: '#783B2B'}}></div>
+                                        <div className="color-circle" style={{backgroundColor: '#BD4C02'}}></div>
+                                        <div className="color-circle" style={{backgroundColor: '#ECCEAA'}}></div>
+                                        <div className="color-circle" style={{backgroundColor: '#929292'}}></div>
+                                    </div>
+                                </Col>
+                            </Row>
+
+                            <Row>
+                                <Col md ={12}>
+                                    <div className = "margin-top-55">
+                                        <p className="text-align-left  mobile-center-text font-agradir font-style-italic font-size-18 secondary-font-color"> Please do not wear polo shirt, jeans or short. Strictly follow the dress code</p>
+                                    </div>
+                                </Col>
+                            </Row>
+                            
+                        </Col>
+                        
                     </Row>
             </Col>
+            <Col md={5}></Col>
 
         </Row>
       </Container>
