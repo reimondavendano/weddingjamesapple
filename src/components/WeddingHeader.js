@@ -23,7 +23,7 @@ const WeddingHeader = () => {
 
   return (
     <>
-    <header id="home" className="header-section-web web-view">
+    <header id="home" className="header-section-web home web-view">
       <WeddingNavBar />
       <Container fluid>
         <Row>
@@ -40,7 +40,7 @@ const WeddingHeader = () => {
       </Container>
     </header>
 
-    <header id="home" className={`home-section ${isVisible ? 'visible' : ''}','header-section-mobile mobile-view`}>
+    <header id="home" className={"header-section-mobile mobile-view " + (`home-section ${isVisible ? 'visible' : ''}`)}>
     <WeddingNavBar />
     <Container fluid>
       <Row>
