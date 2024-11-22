@@ -41,37 +41,30 @@
   }
 
 
-  /* Desktop Resolution */
-  /* @media (min-width: 1024px) {
-    
-    .logo-template {
-      font-size: 35px !important;
-      margin-left: 42px !important;
+    /* Laptop 150% */
+  @media (max-width: 1300px) {
+    .head-template {
+      margin-top: 15% !important;
     }
 
-    .head-template{
-      margin-top: 360px !important;
+  }
+
+  /* Laptop 175% */
+  @media (max-width: 1100px) {
+    .head-template {
+      margin-top: 13% !important;
     }
 
-    .header-title {
-      font-size: 3rem; 
-      letter-spacing: 1rem;
-      color: #C85103 !important;
-      text-shadow: 1px 1px 1px #000 !important;
+  }
+
+  /* Laptop 200% */
+  @media (max-width: 960px) {
+    .head-template {
+      margin-top: 10% !important;
     }
+
+  }
   
-    .header-subtitle {
-      font-size: 1rem;
-      color: #C85103;
-      text-shadow: 1px 1px 1px #000 !important;
-      letter-spacing: 1rem
-    }
-
-    .head-template{
-      margin-top: 10rem !important;
-      margin-left: 0px !important;
-    }
-  } */
 
   /* Mobile */
   @media (max-width: 767px) {

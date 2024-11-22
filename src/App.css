@@ -270,14 +270,30 @@ a.wedding-button, a.wedding-button:hover, a.wedding-button:active{
 
 
 
-
- /* Desktop Resolution */
- @media (min-width: 1024px) {
-  .logo-template {
-    font-size: 40px;
-    margin-left: 42px;
+/* Laptop 150% */
+@media (max-width: 1300px) {
+  .global-standard-height {
+    height: 120vh !important;
   }
+
 }
+
+/* Laptop 175% */
+@media (max-width: 1100px) {
+  .global-standard-height {
+    height: 140vh !important;
+  }
+
+}
+
+/* Laptop 200% */
+@media (max-width: 960px) {
+  .global-standard-height {
+    height: 160vh !important;
+  }
+
+}
+
 
 
 /* Mobile */

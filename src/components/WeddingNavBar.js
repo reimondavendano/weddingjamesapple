@@ -22,7 +22,7 @@ const WeddingNavBar = () => {
 
   return (
     <>
-    <Navbar expand="lg" fixed="top" className={scrolled ? 'navbar-scrolled' : ''} custom-navbar>
+    <Navbar expand="md" fixed="top" className={scrolled ? 'navbar-scrolled' : ''} custom-navbar>
       <Container fluid>
         <Row className="w-100 align-items-center">
           <Col md={4} className="navbar-logo resolution-change">
@@ -40,7 +40,7 @@ const WeddingNavBar = () => {
               </a>
             </div>
           </Col>
-          <Col md={6} className="text-right resolution-change web-view-nav">
+          <Col md={6} className="text-right resolution-change web-view-nav ">
           <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar-toggle" />
           <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
               <Nav className="ml-auto">

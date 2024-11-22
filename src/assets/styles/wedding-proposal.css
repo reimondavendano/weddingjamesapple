@@ -29,11 +29,34 @@
   }
 
 
+  /* Laptop 150% */
+@media (max-width: 1300px) {
+  .video-container {
+    margin-left: 25%;
+  }
+
+}
+
+/* Laptop 175% */
+@media (max-width: 1100px) {
+  .video-container {
+    margin-left: 25%;
+  }
+
+}
+
+/* Laptop 200% */
+@media (max-width: 960px) {
+  .video-container {
+    margin-left: 25%;
+  }
+
+}
+
+
 
   @media (min-width: 1024px) {
-    .video-container {
-      margin-left: 25%;
-    }
+    
 
   }
 
