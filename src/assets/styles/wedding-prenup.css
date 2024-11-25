@@ -10,6 +10,8 @@
     opacity: 1;
   }
 
+
+  
   .slider-container {
     position: relative;
     width: 80%;
@@ -110,6 +112,10 @@
   @media (max-width: 640px) {
     .prenup-section{
       padding: 0px !important;
+    }
+
+    .gvTsfP{
+      max-width: 100% !important;
     }
 
 
